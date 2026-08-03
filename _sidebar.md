@@ -1,5 +1,3 @@
-- [Read Me](README.md)
-- [How To](HowTo.md)
-- [Sample](Sample.md)
+- [Introduction](Introduction.md)
 ---
 - [Changelog](Changelog.md)
