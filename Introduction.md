@@ -7,12 +7,13 @@ The following **Core Concepts** of this TTRPG system are designed to introduce y
   - **Body** represents your physical presence and being.
   - **Mind** represents your mental strength and knowledge.
   - **Soul** represents your willpower and instinctual nature.
-- *__Percentile Rolls:__* This system's Checks rely on rolls made with two 10-sided dice, or more commonly known as **d%** rolls, to determine their overall outcome. Rolls made with **d%** range from 1 to 100, with rolling double zeroes resulting in the maximum of 100.
-  - Checks have a **Target Value** and utilize the following formula for comparison; **Stat** + **d%**. If the Check's **Target Value** is less than or equal to the formula's result, you succeed. Otherwise, you fail.
+- *__Percentile Rolls:__* This system's *Checks* rely on rolls made with two 10-sided dice, or more commonly known as **d%** rolls, to determine their overall outcome. Rolls made with **d%** range from 1 to 100, with rolling double zeroes resulting in the maximum of 100.
+  - *Checks* have a **Target Value** and utilize the following formula for comparison; **Stat** + **d%**. If the **Target Value** is less than or equal to the formula's result, you succeed. Otherwise, you fail.
+  - If your roll result overcomes the **Target Value** by 50 or more, you *__Critically Succeed__*. On the other hand, if the **Target Value** overcomes your roll result by 50 or more, you *__Critically Fail__*. *__Critical Successes__* and *__Critical Failures__* change the severity of the result's outcome, for better or worse.
 - *__Action Points:__* This system utilizes a pool of **Actions Points** you can use on your turn to perform actions while in a dangerous situation.
 - *__Defense and Evasion:__* Unlike other more noteworthy systems, this system has both **Defense** and **Evasion**.
-  - **Defense** reduces *all* damage you would receive directly by its value. For example, if you receive 10 damage and you have 6 **Defense**, you take only 4 damage.
-  - **Evasion** increases your odds of outright dodging incoming effects directly by its value. For example, if an opponent's **d%** result is 100 and you have 60 **Evasion**, that result is dropped to 40.
+  - **Defense** reduces *all* damage you would receive directly by its value.
+  - **Evasion** increases your odds of outright dodging incoming effects directly by its value.
 
 ## Core Philosophies
 The **Core Philosophies** of this TTRPG system will help you understand what to expect from its design and intent. They are as followed:
