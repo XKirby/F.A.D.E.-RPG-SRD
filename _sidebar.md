@@ -1,4 +1,4 @@
 - [Introduction](Introduction.md)
-- [Core Rules](Core Rules.md)
+- [Core Rules](Core_Rules.md)
 ---
 - [Changelog](Changelog.md)
