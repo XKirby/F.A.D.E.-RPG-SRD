@@ -23,7 +23,7 @@ Each of these Stats scales up and down in increments of 5. Additionally, each *p
 An *__Aptitude__* **Boost** is equal to +5 in a positive *__Aptitude__*, while an *__Aptitude__* **Penalty** is equal to -5 in a negative *__Aptitude__*. Characters can have up to a number of *__Aptitude__* **Boosts** equal to **Level** x 2 + *__Aptitude__* **Penalties** and up to a number of *__Aptitude__* **Penalties** equal to **Level** x 2. *__Aptitude__* **Penalties** are optional; You choose to actively take them to receive **Boosts** in other ways.
 
 ## Contested d% Checks
-If two or more opposing characters within the game interact, the way to determine the outcome's results are through *__Contested d% Checks__*. For the most part, *__Contested d% Checks__* are performed using the same rules as normal, except that the defender's *Target Value* is *also* determined with **<Stat>** + **<Aptitude>** + **d%**. If the defender succeeds, the attacker fails, and vice versa.
+If two or more opposing characters within the game interact, the way to determine the outcome's results are through *__Contested d% Checks__*. For the most part, *__Contested d% Checks__* are performed using the same rules as normal, except that the defender's *Target Value* is *also* determined with **Stat** + **Aptitude** + **d%**. If the defender succeeds, the attacker fails, and vice versa.
 
 ## Actions and Action Points
 Characters have a pool of *__Action Points__* that allow them to act a certain number of times within a dangerous situation. Characters are initially created having a maximum of 3 *__Action Points__* and at the start of their turn they fully refill their pool.
