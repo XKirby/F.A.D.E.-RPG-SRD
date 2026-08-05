@@ -3,7 +3,7 @@ Welcome to the System Reference Document for the Tabletop Roleplaying Game of F.
 
 ## Core Concepts
 The following **Core Concepts** of this TTRPG system are designed to introduce you to the basic rules found within the game:
-- *__Three Stats:__* Similar to games made with the Tri-Stat system, such as **"Small Eyes, Big Mouth"**, this system utilizes only three major Stats; **Physique**, **Ego**, and **Instinct**.
+- *__Three Stats:__* Similar to games made with the Tri-Stat system, such as **"Big Eyes, Small Mouth"**, this system utilizes only three major Stats; **Physique**, **Ego**, and **Instinct**.
   - **Physique** represents your physical presence and being.
   - **Ego** represents your mental strength and knowledge.
   - **Instinct** represents your willpower and instinctual nature.
