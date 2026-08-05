@@ -1,11 +1,22 @@
 # Changelog
 
+## August 5, 2026
+
+### Additions
+- Added *__The Main Three Stats__* to *Core_Rules.md*.
+- Added *__Health, Stamina, and Energy__* to *Core_Rules.md*.
+- Added *__Aptitudes__* to *Core_Rules.md*.
+- Added *__Contested d% Checks__* to *Core_Rules.md*.
+- Added *__Actions and Action Points__* to *Core_Rules.md*.
+- Added *__Defense__* to *Core_Rules.md*.
+- Added *__Evasion__* to *Core_Rules.md*.
+
 ## August 4, 2026
 
 ### Additions
-- Added **Aptitudes** section to *Introduction.md*.
+- Added **Aptitudes** to *Introduction.md*.
 - Added URL linking to the front page of the SRD in the About section displayed on the Github source page.
-- Created *Core Rules.md*.
+- Created *Core_Rules.md*.
 
 ### Changes
 - Cleaned up **d% Checks** description.
