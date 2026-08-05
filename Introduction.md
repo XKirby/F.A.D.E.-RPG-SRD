@@ -12,8 +12,8 @@ The following **Core Concepts** of this TTRPG system are designed to introduce y
   - **Checks** have a *Target Value* and utilize the following formula for comparison; **Stat** + **Aptitude** + **d%**. If the *Target Value* is less than or equal to the formula's result *or* you roll 95 or higher, you succeed. Otherwise, you fail. Additionally, if that result overcomes the *Target Value* by 50 or more, you *__Critically Succeed__*. On the other hand, if the *Target Value* overcomes that result by 50 or more, you *__Critically Fail__*. *__Critical Successes__* and *__Critical Failures__* change the severity of the result's outcome, for better or worse.
 - *__Action Points:__* This system utilizes a pool of **Actions Points** you can use on your turn to perform **Actions** while in a dangerous situation.
 - *__Defense and Evasion:__* Unlike other more noteworthy systems, this system has both **Defense** and **Evasion**.
-  - **Defense** reduces damage you would receive directly by its value.
-  - **Evasion** increases your odds of outright dodging incoming effects directly by its value.
+  - **Defense** reduces damage you would receive.
+  - **Evasion** increases your odds of outright dodging incoming effects.
 
 ## Core Philosophies
 The **Core Philosophies** of this TTRPG system will help you understand what to expect from its design and intent. They are as followed:
