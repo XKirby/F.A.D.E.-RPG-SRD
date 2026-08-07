@@ -9,7 +9,7 @@ Each character has *__Base Stats__* of 5; In other words, **Physique**, **Ego**,
 ## Major Properties
 Besides the previously mentioned, each character has various *__Major Properties__* that they may start with. These properties are as followed:
 - *__Level:__* A character's **Level** is a quick determining factor for how strong a character is. Whenever you gain one or more **Levels**, you become more powerful. Characters start at **Level** 0.
-- *__Size:__* A character's **Size** determines how large or how small that character is; A larger character has more **Health** at the cost of **Evasion**, whereas a smaller character has more **Evasion** as the cost of their **Health**. The following **Sizes** are available:
+- *__Size:__* A character's **Size** determines how large or how small that character is; A larger character has more **Health** and **Heft Power** at the cost of **Evasion**, whereas a smaller character has more **Evasion** as the cost of their **Health** and **Heft Power**. The following **Sizes** are available:
   - *Tiny:* A *Tiny* character has a base of 70 **Evasion**, 1 **Heft Power**, and one third the **Health** of a *Medium* character, rounded up. *Tiny* characters are less than or equal to 1 foot tall.
   - *Small:* A *Small* character has a base of 60 **Evasion**, 2 **Heft Power**, and one half the **Health** of a *Medium* character, rounded up. *Small* characters are close to about 2 to 3 feet tall.
   - *Medium:* A *Medium* character has a base of 50 **Evasion**, 3 **Heft Power**, and the normal formula for **Health**. *Medium* characters range from 4 to 7 feet tall.
