@@ -1,5 +1,15 @@
 # Changelog
 
+## August 6, 2026
+
+### Additions
+- Created *Character_Creation.md*.
+- Added *__Base Stats__* to *Character_Creation.md*.
+- Added *__Major Properties__* to *Character_Creation.md*.
+
+### Changes
+- Minor phrasing change for how **Energy** works when hitting the negative maximum.
+
 ## August 5, 2026
 
 ### Additions

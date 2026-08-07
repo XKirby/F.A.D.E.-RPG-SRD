@@ -16,7 +16,7 @@ Each of these Stats scales up and down in increments of 5. Additionally, each *p
   - Characters can't use actions that require more than their current **Stamina**.
   - Normally, **Stamina** can only be reduced down to a minimum of zero.
 - **Energy** is equal to **Ego** + **Instinct** and determines the spiritual force of that character.
-  - Utilizing your **Energy** as a resource is extremely risky as it directly impacts your soul; Characters can't recover **Health** unless they have at least 0 **Energy**, and characters that hit negative **Energy** equal to or lower than their maximum *__snuff out their souls__*. A character that this occurs to receives a massive effect from the GM, usually bad.
+  - Utilizing your **Energy** as a resource is extremely risky as it directly impacts your soul; Characters can't recover **Health** unless they have at least 0 **Energy**, and characters that hit **Energy** into the negative equal to or lower than their maximum *__snuff out their souls__*. A character that this occurs to receives a massive effect from the GM, usually bad.
 
 ## Aptitudes
 *__Aptitudes__* are used to determine how effective you are with certain actions beyond average capabilities. *__Aptitudes__* should be vague enough to be useful, but precise enough to not encompass everything. *(For example, "Melee Aptitude" could work if your character is generally good with melee abilities, while "Item Aptitude" is too vague and can encompass far too much of gameplay.)*

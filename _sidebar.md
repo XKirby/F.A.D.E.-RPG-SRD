@@ -1,4 +1,6 @@
 - [Introduction](Introduction.md)
 - [Core Rules](Core_Rules.md)
 ---
+- [Character Creation](Character_Creation.md)
+---
 - [Changelog](Changelog.md)
