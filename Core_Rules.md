@@ -3,6 +3,7 @@ This page lists the **Core Rules** the system uses, which are based on the **Cor
 
 ## The Main Three Stats
 *__The Main Three Stats__* each character has within this system are **Physique**, **Ego**, and **Instinct**. As mentioned within the *Introductions* page, **Physique** represents your physical being, **Ego** represents your mental knowledge, and **Instinct** represents your instinctual nature.
+
 Each of these Stats scales up and down in increments of 5. Additionally, each *pair* of these Stats grant a specific resource; **Health** is determined by your **Physique** and **Instinct**, **Stamina** is determined by your **Physique** and **Ego**, and **Energy** is determined by your **Ego** and **Instinct**.
 
 ### Health, Stamina, and Energy
@@ -20,6 +21,7 @@ Each of these Stats scales up and down in increments of 5. Additionally, each *p
 
 ## Aptitudes
 *__Aptitudes__* are used to determine how effective you are with certain actions beyond average capabilities. *__Aptitudes__* should be vague enough to be useful, but precise enough to not encompass everything. *(For example, "Melee Aptitude" could work if your character is generally good with melee abilities, while "Gear Aptitude" is too vague and can encompass far too much of gameplay.)*
+
 An *__Aptitude__* **Boost** is equal to +5 in a positive *__Aptitude__*, while an *__Aptitude__* **Penalty** is equal to -5 in a negative *__Aptitude__*. Characters can have up to a number of *__Aptitude__* **Boosts** equal to **Level** x 2 + *__Aptitude__* **Penalties** and up to a number of *__Aptitude__* **Penalties** equal to **Level** x 2. *__Aptitude__* **Penalties** are optional; You choose to actively take them to receive **Boosts** in other ways.
 
 ## Contested d% Checks
@@ -27,10 +29,12 @@ If two or more opposing characters within the game interact, the way to determin
 
 ## Actions and Action Points
 Characters have a pool of *__Action Points__* that allow them to act a certain number of times within a dangerous situation. Characters are initially created having a maximum of 3 *__Action Points__* and at the start of their turn they fully refill their pool.
+
 *__Actions__* are the general way characters interact within the game and can consume anywhere from 0 to 3 *__Action Points__* as an upfront cost. *__Actions__* have various properties, such as *Requirements* needed to fully activate, *Prerequisites* to learn them, a *Frequency* with which they can activate in succession, a *Duration* to determine how long they last, and more. These properties will be explained in a dedicated section for *__Actions__*.
 
 ## Defense
 Characters, usually those wearing armor, have *__Defense__* as the main form of damage mitigation. *__Defense__* comes in many flavors, separated into two groups; **Global Defense** and **Conditional Defense**.
+
 **Global Defense** is stronger, as it protects against *every* form damage can and may take within the game. However, it's rarely found compared to **Conditional Defense**. **Conditional Defense** is more frequently found, but is weaker as it has restrictions to what it applies to. Each **Conditional Defense** you have can stack within their specific parameters, as well as stacking with **Global Defense**. Characters are initially created having 0 *__Global Defense__*.
 
 ## Evasion
