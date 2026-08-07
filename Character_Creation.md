@@ -29,7 +29,7 @@ Besides the previously mentioned, each character has various *__Major Properties
 Characters gain *__Experience__* during the game, usually from combat scenarios or at the GM's discretion. If a character has 100 or more *__Experience__*, they *__Level Up__* and lose 100 *__Experience__* until they have below 100 *__Experience__*. As a Character increases in **Level**, the following occurs:
 - That character gains 2 **Boosts** divided as they choose among **Physique**, **Ego**, and/or **Instinct** per **Level** gained. *(For example, they may put 10 points in Physique, or they may put 5 into both Physique and Ego.)* Be sure to scale your **Health**, **Stamina**, and **Energy** accordingly.
 - That character gains 2 **Boosts** divided as they choose among their current and/or any new **Aptitudes** per **Level** gained. That character may also gain up to 2 **Aptitude Penalties** per **Level** gained, either new or current, to gain that many more **Aptitude Boosts**.
-- That character gains 10 **Ability Points** to spend on new or current **Abilities** per **Level** gained..
+- That character gains 10 **Ability Points** to spend on new or current **Abilities** per **Level** gained.
 
 Since the GM determines the maximum **Level** that both player and non-player characters can reach, be sure to talk to your GM about the scope of the session/campaign they're hosting so you can get a good estimate on how to build your character.
 Additionally, the *__Experience__* gained during the game scales down a number of points equal to your current **Level**. *(For example, if you gain 10 Experience at Level 0, the Experience gained that way when at Level 1 becomes 9 instead.)*
