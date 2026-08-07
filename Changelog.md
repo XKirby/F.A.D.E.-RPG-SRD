@@ -1,5 +1,21 @@
 # Changelog
 
+## August 7, 2026
+
+### Additions
+- Fleshed out *__Major Properties__* in *Character_Creation.md*.
+  - Added *Astronomic* **Size** variant.
+  - Added **Heft Power** section. Each **Size** now has a **Heft Power** multiplier.
+  - Added **Aptitudes** section.
+  - Added **Gear** section.
+  - Added **Abilities** section.
+- Added *__Experience and Leveling Up__* to *Character_Creation.md*.
+
+### Changes
+- *Gargantuant* and *Titanic* **Sizes** now have **Level** restrictions.
+- **Evasion** cleaned up a bit as it was mentioned in **Size** variants.
+- Cleaned up *Core_Rules.md* and made it look a bit better.
+
 ## August 6, 2026
 
 ### Additions
@@ -24,7 +40,7 @@
 ## August 4, 2026
 
 ### Additions
-- Added **Aptitudes** to *Introduction.md*.
+- Added *__Aptitudes__* to *Introduction.md*.
 - Added URL linking to the front page of the SRD in the About section displayed on the Github source page.
 - Created *Core_Rules.md*.
 

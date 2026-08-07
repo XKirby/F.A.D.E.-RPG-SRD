@@ -3,7 +3,7 @@ This page lists the **Core Rules** the system uses, which are based on the **Cor
 
 ## The Main Three Stats
 *__The Main Three Stats__* each character has within this system are **Physique**, **Ego**, and **Instinct**. As mentioned within the *Introductions* page, **Physique** represents your physical being, **Ego** represents your mental knowledge, and **Instinct** represents your instinctual nature.
-Each of these Stats scales up and down in increments of 5. Additionally, each *pair* of these Stats grant a specific resource; *Health* is determined by your **Physique** and **Instinct**, *Stamina* is determined by your **Physique** and **Ego**, and *Energy* is determined by your **Ego** and **Instinct**.
+Each of these Stats scales up and down in increments of 5. Additionally, each *pair* of these Stats grant a specific resource; **Health** is determined by your **Physique** and **Instinct**, **Stamina** is determined by your **Physique** and **Ego**, and **Energy** is determined by your **Ego** and **Instinct**.
 
 ### Health, Stamina, and Energy
 *__Health, Stamina, and Energy__* are the primary resources each character has in this system. Each resource serves a unique purpose, as listed below:
@@ -19,7 +19,7 @@ Each of these Stats scales up and down in increments of 5. Additionally, each *p
   - Utilizing your **Energy** as a resource is extremely risky as it directly impacts your soul; Characters can't recover **Health** unless they have at least 0 **Energy**, and characters that hit **Energy** into the negative equal to or lower than their maximum *__snuff out their souls__*. A character that this occurs to receives a massive effect from the GM, usually bad.
 
 ## Aptitudes
-*__Aptitudes__* are used to determine how effective you are with certain actions beyond average capabilities. *__Aptitudes__* should be vague enough to be useful, but precise enough to not encompass everything. *(For example, "Melee Aptitude" could work if your character is generally good with melee abilities, while "Item Aptitude" is too vague and can encompass far too much of gameplay.)*
+*__Aptitudes__* are used to determine how effective you are with certain actions beyond average capabilities. *__Aptitudes__* should be vague enough to be useful, but precise enough to not encompass everything. *(For example, "Melee Aptitude" could work if your character is generally good with melee abilities, while "Gear Aptitude" is too vague and can encompass far too much of gameplay.)*
 An *__Aptitude__* **Boost** is equal to +5 in a positive *__Aptitude__*, while an *__Aptitude__* **Penalty** is equal to -5 in a negative *__Aptitude__*. Characters can have up to a number of *__Aptitude__* **Boosts** equal to **Level** x 2 + *__Aptitude__* **Penalties** and up to a number of *__Aptitude__* **Penalties** equal to **Level** x 2. *__Aptitude__* **Penalties** are optional; You choose to actively take them to receive **Boosts** in other ways.
 
 ## Contested d% Checks
