@@ -34,7 +34,9 @@ Since the GM determines the maximum **Level** that both player and non-player ch
 Additionally, the *__Experience__* gained during the game scales down a number of points equal to your current **Level**. *(For example, if you gain 10 Experience at Level 0, the Experience gained that way when at Level 1 becomes 9 instead.)*
 > [!Note]
 > As characters start at **Level** 0 normally, if your GM has you start at **Level** 1 or higher, act as though you started at **Level** 0 and gained enough **Experience** to **Level Up** that many times.
+
 > [!Attention]
 > The GM chooses what **Level** the players start and end at. As a GM, it's your job to make sure everyone knows and is okay with this. The recommended **Level** range for a larger campaign is from **Levels** 1 to 30.
+
 > [!Tip]
 > **Experience**, while recommended as the source in which you **Level Up**, may not work for your campaign. If that is the case, you may opt for the **Milestone** system instead; If a player does something noteworthy, you can grant them the ability to immediately **Level Up**. Be wary when using this system, as you don't want to have a huge **Level** disparity amongst your party's players.
