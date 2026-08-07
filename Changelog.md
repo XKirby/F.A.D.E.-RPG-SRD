@@ -10,7 +10,7 @@
   - Added **Gear** section.
   - Added **Abilities** section.
 - Added *__Experience and Leveling Up__* to *Character_Creation.md*.
-- Created *Abilities.md* and *Gear.md*.
+- Created *Creating_Abilities.md* and *Creating_Gear.md*.
 
 ### Changes
 - *Gargantuant* and *Titanic* **Sizes** now have **Level** restrictions.
