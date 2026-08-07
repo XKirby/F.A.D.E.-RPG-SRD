@@ -32,6 +32,7 @@ Characters gain *__Experience__* during the game, usually from combat scenarios 
 - That character gains 10 **Ability Points** to spend on new or current **Abilities** per **Level** gained..
 Since the GM determines the maximum **Level** that both player and non-player characters can reach, be sure to talk to your GM about the scope of the session/campaign they're hosting so you can get a good estimate on how to build your character.
 Additionally, the *__Experience__* gained during the game scales down a number of points equal to your current **Level**. *(For example, if you gain 10 Experience at Level 0, the Experience gained that way when at Level 1 becomes 9 instead.)*
+
 > [!Note]
 > As characters start at **Level** 0 normally, if your GM has you start at **Level** 1 or higher, act as though you started at **Level** 0 and gained enough **Experience** to **Level Up** that many times.
 
