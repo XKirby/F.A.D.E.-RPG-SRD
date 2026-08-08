@@ -1,5 +1,14 @@
 # Changelog
 
+## August 8, 2026
+
+### Additions
+- Added *__Creating Abilities__* to *Creating_Abilities.md*.
+- Added *__Ability Properties__* to *Creating_Abilities.md*.
+
+### Changes
+- Applied typo and phrasing fixes to both *Core_Rules.md* and *Character_Creation.md*
+
 ## August 7, 2026
 
 ### Additions

@@ -1,5 +1,5 @@
 # Core Rules
-This page lists the **Core Rules** the system uses, which are based on the **Core Concepts** found in the *Introduction* page.
+This page lists the *__Core Rules__* the system uses, which are based on the **Core Concepts** found in the *Introduction* page.
 
 ## The Main Three Stats
 *__The Main Three Stats__* each character has within this system are **Physique**, **Ego**, and **Instinct**. As mentioned within the *Introductions* page, **Physique** represents your physical being, **Ego** represents your mental knowledge, and **Instinct** represents your instinctual nature.
