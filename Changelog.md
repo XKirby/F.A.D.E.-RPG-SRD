@@ -8,6 +8,7 @@
 
 ### Changes
 - Applied typo and phrasing fixes to both *Core_Rules.md* and *Character_Creation.md*
+- Adjusted **Abilities** phrasing under *__Major Properties__* in *Character_Creation.md*.
 
 ## August 7, 2026
 
