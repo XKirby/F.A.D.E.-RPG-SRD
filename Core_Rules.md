@@ -30,7 +30,7 @@ If two or more opposing characters within the game interact, the way to determin
 ## Actions and Action Points
 Characters have a pool of *__Action Points__* that allow them to act a certain number of times within a dangerous situation. Characters are initially created having a maximum of 3 *__Action Points__* and at the start of their turn they fully refill their pool.
 
-*__Actions__* are the general way characters interact within the game and can consume anywhere from 0 to 3 *__Action Points__* as an upfront cost. *__Actions__* have various properties, such as *Requirements* needed to fully activate, *Prerequisites* to learn them, a *Frequency* with which they can activate in succession, a *Duration* to determine how long they last, and more. These properties will be explained in a dedicated section for *__Actions__*.
+*__Actions__* are the general way characters interact within the game and can consume anywhere from 0 to 3 *__Action Points__* as an upfront cost. *__Actions__* have various **Properties**, such as *Requirements* needed to fully activate, *Prerequisites* to learn them, a *Frequency* with which they can activate in succession, a *Duration* to determine how long they last, and more. These will be further explained in the **Creating Abilities** page.
 
 ## Defense
 Characters, usually those wearing armor, have *__Defense__* as the main form of damage mitigation. *__Defense__* comes in many flavors, separated into two groups; **Global Defense** and **Conditional Defense**.
