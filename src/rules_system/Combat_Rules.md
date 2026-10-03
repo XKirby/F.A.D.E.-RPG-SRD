@@ -10,7 +10,7 @@ The *__Row System__* at its core is designed to allow for simpler combat structu
 - When **Ambushing** a specific group of characters, the enemy group appears from behind, attacking their **Back Row**.
 
 ## Initiating Combat
-Before *__Initiating Combat__*, each party entering **Combat** must determine their starting **Rows** using one of the above methods. Once all participants have chosen where to start, the attackers mention how they're engaging their enemies, then each combat participant rolls a **d% Check** of **<a style="color:#40ff40">Ego</a>** + a relevant **Aptitude** + **d%**. The results of these rolls, called *__Initiative__*, determines the **Round Order**, with the highest values acting before lower values. If there's a tie, those characters perform additional **d% Checks** until there aren't any, repositioning themselves before or after other characters they were rolling off with.
+Before *__Initiating Combat__*, each party entering **Combat** must determine their starting **Rows** using one of the above methods. Once all participants have chosen where to start, the attackers mention how they're engaging their enemies, then each combat participant rolls a **d% Check** of **<a style="color:#ffff40">Ego</a>** + **Aptitude** + **d%**. The results of these rolls, called *__Initiative__*, determines the **Round Order**, with the highest values acting before lower values. If there's a tie, those characters perform additional **d% Checks** until there aren't any, repositioning themselves before or after other characters they were rolling off with.
 
 ## Turns and Rounds
 *__Turns and Rounds__* are ways to keep track of time passing throughout dangerous situations. A *__Round__* is comprised of all characters' *__Turns__* and lasts a total of 6 seconds. A single character's *__Turn__* is comprised of what they can do within their alloted time within a *__Round__*.
@@ -27,7 +27,7 @@ Each character has the following *__Basic Abilities__* at their disposal at any 
 
 | *__Ability Name__* | *__Properties__* | *__Effects__* |
 | :-: | :-: | --- |
-| Unarmed Strike | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | This **Ability** deals 1d4 Bludgeoning damage to each of its targets' **<a style="color:#ff4040"><i class="fa-solid fa-heart"></i>Health</a>**. |
+| Unarmed Strike | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | This **Ability** deals 1d4 Bludgeoning damage to each of its targets' **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**. |
 | Defend | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | This **Ability** grants its user **<i class="fa-solid fa-shield-halved"></i>Global Defense** equal to their Current **Level** + 1 until the start of their next **Turn**. Their current **Turn** ends. |
 | Run Away | *Active*;<br />**Cost:** 2<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | Roll a **Contested d% Check** again all enemies of **<a style="color:#4040ff">Instinct</a>** + **<i class="fa-solid fa-person-falling"></i>Evasion** + **d%**. Count each **Success** as +1 and each **Failure** as +0 for the result.<br />If the result is greater than or equal to half the available enemies you contested against, this **Ability** causes its user to disengage from combat by running away. |
 | Pass | *Active*;<br />**Cost:** 0<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | This **Ability** grants its user a lower **Initiative** of their choice, to a minimum of 1. |

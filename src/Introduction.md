@@ -5,11 +5,11 @@ Welcome to the System Reference Document for the Tabletop Roleplaying Game of F.
 The following *__Core Concepts__* of this TTRPG system are designed to introduce you to the basic rules found within the game:
 
 ### Base Stats
-Similar to games made with the *Tri-Stat System*, such as *"Big Eyes, Small Mouth"*, this system utilizes only three *__Base Stats__*; **<a style="color:#ff4040">Physique</a>**, **<a style="color:#40ff40">Ego</a>**, and **<a style="color:#4040ff">Instinct</a>**.
+Similar to games made with the *Tri-Stat System*, such as *"Big Eyes, Small Mouth"*, this system utilizes only three *__Base Stats__*; **<a style="color:#ff4040">Physique</a>**, **<a style="color:#ffff40">Ego</a>**, and **<a style="color:#4040ff">Instinct</a>**.
 
 **<a style="color:#ff4040">Physique</a>:** This *__Base Stat__* represents your physical presence and being. The higher it is, the heartier and more physically threatening you are.
 
-**<b style="color:#40ff40">Ego</b>:** This *__Base Stat__* represents your mental strength and knowledge. The higher it is, the more inquisitive and mentally threatening you are.
+**<b style="color:#ffff40">Ego</b>:** This *__Base Stat__* represents your mental strength and knowledge. The higher it is, the more inquisitive and mentally threatening you are.
 
 **<a style="color:#4040ff">Instinct</a>:** This *__Base Stat__* represents your willpower and subconscious nature. The higher it is, the more naturally intelligent and strong you are.
 

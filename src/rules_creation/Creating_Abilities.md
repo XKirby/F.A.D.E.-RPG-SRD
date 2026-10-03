@@ -19,7 +19,7 @@ The **Ability** can't be learned unless the character learning it meets its *__P
 ### Alternative Costs
 The *__Alternative Costs__* of an **Ability** list what it consumes before it can be utilized. You can't spend what you don't have. *__Alternative Costs__* can be one or more of the following:
 - <u>**<i class="fa-solid fa-gem"></i>Action Points:**</u> The **Ability** requires you to spend this many **<i class="fa-solid fa-gem"></i>Action Points** before it can be utilized.
-- <u>**Resources:**</u> **<a style="color:#ff4040"><i class="fa-solid fa-heart"></i>Health</a>**, **<a style="color:#40ff40"><i class="fa-solid fa-person-running"></i>Stamina</a>**, and/or **<a style="color:#4040ff"><i class="fa-solid fa-bolt"></i>Energy</a>** must be spent before the **Ability** can be utilized. You don't have the capability to spend those **Resources** if you have less than the required amount above the minimum of 0 in that **Resource**.
+- <u>**Resources:**</u> **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**, **<a style="color:#ffc040"><i class="fa-solid fa-person-running"></i>Stamina</a>**, and/or **<a style="color:#40ff40"><i class="fa-solid fa-bolt"></i>Energy</a>** must be spent before the **Ability** can be utilized. You don't have the capability to spend those **Resources** if you have less than the required amount above the minimum of 0 in that **Resource**.
 - <u>**Gear:**</u> The **Ability** consumes specific **Gear** when utilized, either by **Gear Tags** or by name.
 
 ### Requirements
@@ -39,7 +39,7 @@ An **Ability's** *__Frequency__* determines how often you can use it. *(For exam
 An **Ability's** *__Duration__* determines how long it remains active. *(For example, a Duration of 5 rounds means whatever effects are active remain that way until the turn order goes around five times.)*
 
 ## Buying Abilities
-*__Buying Abilities__* you make for yourself during the *Leveling Up* process involves spending **Ability Points** gained during that process. *Ability Properties* either increase or decrease the **Ability Point** cost of the **Ability** in question.
+*__Buying Abilities__* you make for yourself during the *Leveling Up* process involves spending **Ability Points** gained during that process. *Ability Properties* either increase or decrease the **Ability Point Cost** of the **Ability** in question.
 
 When *__Buying Abilities__*, each *Ability Property* has specific **Ability Point Cost** values, listed below. Positive **Ability Point Costs** must be paid, while negative **Ability Point Costs** grant extra **Ability Points** you can spend. You can only gain a total of extra **Ability Points** equal to your *Current Level x 2* from all additions and changes made this way each time you *__Buy Abilities__*.
 
@@ -56,7 +56,7 @@ If a new **Ability** would be created, you must give it a unique name.
 | :-: | :-: | --- |
 | **Level** | -1 per X | This **Ability** can only be learned at **Level** **\[X\]** or higher. **\[X\]** *(Minimum of 0, Maximum of Current Level.)* |
 | **Aptitude** | -1 per 5X, -1 per Y over 1 | This **Ability** can only be learned with **\[Y\]** matching **Aptitudes** at **\[X\]** or higher. *(Each Aptitude may have a different \[X\]. Minimum of +5, Maximum of +50.)* |
-| **Natural Base Stats** | -1 per 5X, -1 per Y over 1 | This **Ability** can only be learned with **[\Y\]** matching **Base Stats** naturally at **\[X\]** or higher. *(Each Natural Base Stat may have a different \[X\]. Y begins at 0, Minimum 0.)* |
+| **Natural Base Stats** | -1 per 5X, -1 per Y over 1 | This **Ability** can only be learned with **\[Y\]** matching **Base Stats** naturally at **\[X\]** or higher. *(Each Natural Base Stat may have a different \[X\]. Y begins at 0, Minimum 0.)* |
 
 <br />
 
