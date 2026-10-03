@@ -1,0 +1,13 @@
+[book]
+title = "F.A.D.E. RPG System Reference Document"
+authors = ["X Kirby"]
+language = "en"
+
+[output.html]
+no-section-label = true
+git-repository-url = "https://github.com/XKirby/F.A.D.E.-RPG-SRD"
+site-url = "/srd/"
+
+[output.html.fold]
+enable = true
+level = 0

@@ -1,8 +1,0 @@
-- [Introduction](Introduction.md)
-- [Core Rules](Core_Rules.md)
----
-- [Character Creation](Character_Creation.md)
-- [Creating Abilities](Creating_Abilities.md)
-- [Creating Gear](Creating_Gear.md)
----
-- [Changelog](Changelog.md)
