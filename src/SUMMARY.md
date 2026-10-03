@@ -12,6 +12,10 @@
 
 # Content Pages
 
+- [Characters](rules_content/Characters_Main.md)
+- [Gear](rules_content/Gear_Main.md)
+- [Abilities](rules_content/Abilities_Main.md)
+
 ---
 
 # Content Creation Rules

@@ -21,17 +21,20 @@ The *__Base Stats__* each character has within this system are **<a style="color
   - Utilizing your *__<a style="color:#4040ff"><i class="fa-solid fa-bolt"></i>Energy</a>__* as a resource is extremely risky as it directly impacts your soul; Characters can't recover *__<a style="color:#ff4040"><i class="fa-solid fa-heart"></i>Health</a>__* unless they have at least zero *__<a style="color:#4040ff"><i class="fa-solid fa-bolt"></i>Energy</a>__*, and characters that hit *__<a style="color:#4040ff"><i class="fa-solid fa-bolt"></i>Energy</a>__* into the negative equal to or lower than their maximum **snuff out their souls**.
 
 > [!CAUTION]
-> Any character that snuffs out their own soul, **including player characters**, <a style="color:red"><u>*__relinquishes their free will__*</u></a>. As a GM, you may decide what this means. Some examples include permanent character death, taking full control of that character once they recover, demonic or otherworldly possession, etc. <a style="color:orange"><u>*__YOU MUST MAKE SURE YOUR PLAYERS KNOW WHAT THEY'RE GETTING THEMSELVES INTO IF THEY DO THIS.__*</u></a>
+> Any character that snuffs out their own soul, **including player characters**, <a style="color:red"><u>*__relinquishes their free will__*</u></a>. As a GM, you may decide what this means. Examples include permanent character death, taking full control of that character once they recover, demonic or otherworldly possession, etc. <a style="color:orange"><u>*__YOU MUST MAKE SURE YOUR PLAYERS KNOW WHAT THEY'RE GETTING THEMSELVES INTO IF THEY DO THIS.__*</u></a>
 
 ## Aptitudes
-*__Aptitudes__* are used to determine how effective you are with certain actions beyond average capabilities. *__Aptitudes__* should be vague enough to be useful, but precise enough to not encompass everything. *(For example, "Melee Aptitude" could work if your character is generally good with melee abilities, while "Gear Aptitude" is too vague and can encompass far too much of gameplay.)*
+*__Aptitudes__* are used to determine how effective you are with certain **Abilities** beyond average capabilities. *__Aptitudes__* should be vague enough to be useful, but precise enough to not encompass everything. *(For example, "Melee Aptitude" could work if your character is generally good with melee abilities, while "Gear Aptitude" is too vague and can encompass far too much of gameplay.)*
 
 An **Aptitude Boost** is equal to +5 in a positive *__Aptitude__*, while an **Aptitude Penalty** is equal to -5 in a negative *__Aptitude__*. Characters can have up to a number of **Boosts** equal to **Level** x 2 + **Penalties** and up to a number of **Penalties** equal to **Level** x 2. **Penalties** are optional; You choose to actively take them to receive **Boosts** in other ways.
 
 ## Abilities and Action Points
-Characters have a pool of *__Action Points__* that allow them to act a certain number of times within a dangerous situation. Characters are initially created having a maximum of 3 *__Action Points__* and at the start of their turn they fully refill their pool.
+Characters have a pool of *__<i class="fa-solid fa-gem"></i>Action Points__* that allow them to act a certain number of times within a dangerous situation. Characters are initially created having a maximum of 3 *__<i class="fa-solid fa-gem"></i>Action Points__*.
 
-*__Abilities__* are the general way characters interact within the game and can consume anywhere from 0 to 3 *__Action Points__* as an upfront cost. *__Abilities__* have various **Properties**, such as *Requirements* needed to fully activate, *Prerequisites* to learn them, a *Frequency* with which they can activate in succession, a *Duration* to determine how long they last, and more. These will be further explained in the **Creating Abilities** page.
+*__Abilities__* are the general way characters interact within the game and can consume anywhere from 0 to 3 *__<i class="fa-solid fa-gem"></i>Action Points__* as an upfront cost. *__Abilities__* have various **Properties**, such as *Requirements* needed to fully activate, *Prerequisites* to learn them, a *Frequency* with which they can activate in succession, a *Duration* to determine how long they last, and more. These will be further explained in the **Creating Abilities** page.
+
+> [!NOTE]
+> *__Abilities__* use their name as a reference to determine where their **Effects** come from. If you apply an *__Ability__* to a target that is already referencing an **Ability** with its name, the old **Ability's Effects** are replaced with the new **Ability's Effects**, even if they're entirely different **Abilities**.
 
 ## Gear
 Characters can use various pieces of *__Gear__* to further augment their capabilities. *__Gear__* comes in many forms, such as *Consumable* or *Equipment*.
@@ -40,7 +43,7 @@ A character may equip one *Head* *__Gear__*, one *Body* *__Gear__*, one *Foot* *
 
 *__Gear__* also has **Density** and **Durability**; The more **Density** a piece of *__Gear__* has, the more durable and heavy it is. **Density** works similarly to a character's **<i class="fa-solid fa-shield-halved"></i>Global Defense** in that it blocks all forms of incoming damage dealt to it. **Durability**, on the other hand, works like a character's **<a style="color:#ff4040"><i class="fa-solid fa-heart"></i>Health</a>**; If a piece of *__Gear's__* **<a style="color:#ff4040"><i class="fa-solid fa-heart"></i>Health</a>** ever hits zero, that piece of *__Gear__* is completely destroyed.
 
-Additionally, *__Gear__* has **Heft** and **Weight**. A piece of *__Gear's__* **Weight** is also determined by its **Size**; Like a character of that particular **Size**, a piece of *__Gear's__* has **Heft** related to that **Size**, and its **Weight** is equal to its **Density** x **Heft**.
+Additionally, *__Gear__* has **Heft** and **Weight**. A piece of *__Gear's__* **Weight** is also determined by its **Size**; Like a character of that particular **Size**, a piece of *__Gear's__* **Heft** related to that **Size**, and its **Weight** is equal to its **Density** x **Heft**.
 
 ## Defense
 Characters, usually those wearing armor, have *__<i class="fa-solid fa-shield-halved"></i>Defense__* as their secondary form of **Damage Mitigation**. *__<i class="fa-solid fa-shield-halved"></i>Defense__* comes in many flavors, separated into two groups; *__<i class="fa-solid fa-shield-halved"></i>Global Defense__* and *__<i class="fa-solid fa-shield-halved"></i>Conditional Defense__*.

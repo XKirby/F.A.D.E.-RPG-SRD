@@ -4,7 +4,7 @@ Changes to the SRD are found here, in descending order.
 ## October 3, 2026
 ### Additions
 - Added *Combat_Rules.md*.
-  - It's a work-in-progress and barely started.
+  - It's a work-in-progress.
 - Added **Effects**, **Element Tags** and **Elemental Effectiveness** to *Creating_Abilities.md*.
 ### Changes
 - Reformated the entire SRD to utilize [MdBook](https://rust-lang.github.io/mdBook/) instead.
