@@ -1,5 +1,20 @@
 # Changelog
 
+## October 2, 2026
+
+### Additions
+- Added *Effects* to *__Ability Properties__* in *Creating_Abilities.md*.
+- Added *__Buying Abilities__* to *Creating_Abilities.md*.
+  - It's currently unfinished.
+
+### Changes
+- Changed how many **Ability Points** you get in *Character_Creation.md*.
+  - Also included an example of how the scaling works.
+- Renamed **Heft Power** to **Heft** in *Character_Creation.md*. It does the same thing.
+- Renamed *__Actions and Action Points__* to *__Abilities and Action Points__* in *Core_Rules.md*. They were the same thing.
+- Added some text to the **Ability Points** section found in *Character_Creation.md* mentioning the ability to add or change your **Abilities**.
+- Moved the "Attention" box found under *__Experience and Leveling Up__* related the the campaign's *Level* range in *Character_Creation.md*.
+
 ## August 8, 2026
 
 ### Additions
