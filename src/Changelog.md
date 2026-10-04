@@ -53,11 +53,17 @@ Changes to the SRD are found here, in descending order.
   - Revive
   - Skip Next Turn
 - Added a new set of **Effects** to the *Pass* **Basic Ability** found in *Combat_Rules.md*.
-  - The old version of *Pass* was renamed to *Postpone*.
+  - The old version of *Pass* was renamed to *Postpone*, and then renamed to *Wait*.
 - Added a Tip about how the GM can utilize the **Row System** to *Combat_Rules.md*.
+- Added more details to *__Turns and Rounds__* in *Combat_Rules.md*.
+- Added forced movement from the **Back Row** to the **Front Row** if every actively fighting character is sitting in the **Back Row** at the start of the **Round** in *Combat_Rules.md*.
+  - This doesn't apply to **Surrounded** groups.
+- Added *Reposition* **Basic Ability** in *Combat_Rules.md*.
+- Added a **Character Ranks Experience Multiplier** table to *Combat_Rules.md*.
 ### Changes
 - Changed *Unarmed Strike* **Basic Ability** in *Combat_Rules.md*.
   - Deals 1d2 Bludgeoning damage on Success, otherwise it deals 1 Bludgeoning damage.
+  - Renamed it from *Unarmed Strike* to *Attack*.
 - Reworked how **Gear Slots** are calculated and utilzed.
   - Characters now have a number of **Gear Slot Tags** with *Counts* determining how many pieces can be equipped of that **Gear Slot** category.
 - Renamed the following **Effects** in *Creating_Abilities.md*.
@@ -70,6 +76,7 @@ Changes to the SRD are found here, in descending order.
 - Changed Negative **Ability Point Cost** point gain maximum from current **Level** x 2 to just current **Level** in *Creating_Abilities.md*.
 - Changed how *__<a style="color:#40ff40"><i class="fa-solid fa-bolt"></i>Energy</a>__* is actively reduced when attempting to stabilize while either unconscious or dying.
 - Changed how big **Titanic** and **Astronomic** characters are.
+- Renamed the *Run Away* **Basic Ability** to *Escape* in *Combat_Rules.md*.
 ### Removals
 - Removed the following **Element Tags** from *Creating_Abilties.md*.
   - Water
