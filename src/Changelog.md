@@ -42,6 +42,7 @@ Changes to the SRD are found here, in descending order.
   - Change Size
   - Change Tags
   - Dispel **Ability**
+  - End Turn
   - Gain **<i class="fa-solid fa-shield-halved"></i>Conditional Defense**
   - Gain **<i class="fa-solid fa-shield-halved"></i>Global Defense**
   - Has Critical Range
@@ -50,11 +51,13 @@ Changes to the SRD are found here, in descending order.
   - Invert Recovery When **Severe**
   - Provoke
   - Revive
+  - Skip Next Turn
 - Added a new set of **Effects** to the *Pass* **Basic Ability** found in *Combat_Rules.md*.
   - The old version of *Pass* was renamed to *Postpone*.
 - Added a Tip about how the GM can utilize the **Row System** to *Combat_Rules.md*.
 ### Changes
 - Changed *Unarmed Strike* **Basic Ability** in *Combat_Rules.md*.
+  - Deals 1d2 Bludgeoning damage on Success, otherwise it deals 1 Bludgeoning damage.
 - Reworked how **Gear Slots** are calculated and utilzed.
   - Characters now have a number of **Gear Slot Tags** with *Counts* determining how many pieces can be equipped of that **Gear Slot** category.
 - Renamed the following **Effects** in *Creating_Abilities.md*.
@@ -62,6 +65,17 @@ Changes to the SRD are found here, in descending order.
   - Has Success Range -> Has Failure Range
 - Reworked Damage **Resource** and Recover **Resource** so that they can accept flat values.
 - Some **Effects** now actively mention that they can be taken repeatedly.
+- Reduced initial maximum **<i class="fa-solid fa-gem"></i>Action Points** from 3 to 2.
+- Changed the Ice **Element Tag** to Cold in *Creating_Abilities.md*.
+- Changed Negative **Ability Point Cost** point gain maximum from current **Level** x 2 to just current **Level** in *Creating_Abilities.md*.
+- Changed how *__<a style="color:#40ff40"><i class="fa-solid fa-bolt"></i>Energy</a>__* is actively reduced when attempting to stabilize while either unconscious or dying.
+- Changed how big **Titanic** and **Astronomic** characters are.
+### Removals
+- Removed the following **Element Tags** from *Creating_Abilties.md*.
+  - Water
+  - Poison
+  - Void
+- Removed permanent **Duration** at 20 **Rounds** of **Duration**.
 
 ## October 3, 2026
 ### Additions

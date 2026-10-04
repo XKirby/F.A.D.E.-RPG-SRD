@@ -36,12 +36,12 @@ An **Ability** has a list of *__Targets__* it affects. *__Targets__* can be one 
 
 An **Ability's** *__Frequency__* determines how often you can use it. *(For example, a Frequency of once per round means you can only use it once until the turn order goes around once.)*
 
-An **Ability's** *__Duration__* determines how long it remains active. *(For example, a Duration of 5 rounds means whatever effects are active remain that way until the turn order goes around five times.)*
+An **Ability's** *__Duration__* determines how long it remains active. While in combat, an **Ability** with a *__Duration__* higher than 0 rounds only triggers once per round, either at the start or end of its targets' **Turns**. *(For example, a Duration of 5 rounds means whatever effects are active remain that way until the turn order goes around five times.)*
 
 ## Buying Abilities
 *__Buying Abilities__* you make for yourself during the *Leveling Up* process involves spending **Ability Points** gained during that process. *Ability Properties* either increase or decrease the **Ability Point Cost** of the **Ability** in question.
 
-When *__Buying Abilities__*, each **Ability Property** has specific **Ability Point Cost** values, listed below. Positive **Ability Point Costs** must be paid, while negative **Ability Point Costs** grant extra **Ability Points** you can spend. You can only gain a total of extra **Ability Points** equal to your Current **Level** x 2 from all additions and changes made this way each time you *__Buy Abilities__*.
+When *__Buying Abilities__*, each **Ability Property** has specific **Ability Point Cost** values, listed below. Positive **Ability Point Costs** must be paid, while negative **Ability Point Costs** grant extra **Ability Points** you can spend. You can only gain a total of extra **Ability Points** equal to your current **Level** from all additions and changes made this way each time you *__Buy Abilities__*.
 
 If a new **Ability** would be created, you must give it a unique name.
 
@@ -79,7 +79,7 @@ If a new **Ability** would be created, you must give it a unique name.
 | *__Other Property Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
 | *Frequency* | -1 per X | This **Ability** can only be used once every **\[X\]** rounds. *(Minimum 0.)* |
-| *Duration* | +1 per X | This **Ability** lingers for a Duration of **\[X\]** rounds. *(X begins at 0, Minimum 0, Maximum 20. If X is 20, this Ability is permanent instead.)* |
+| *Duration* | +1 per X | This **Ability** lingers for **\[X\]** rounds. *(X begins at 0, Minimum 0, Maximum 20.)* |
 | *Targets* | +1 per X over 1, +3 if X is All, +6 if X is All Allies or All Enemies. | This **Ability** hits up to **\[X\]** targets within reach. *(X begins at 1, Minimum 1, Maximum 4. X can be All Allies, All Enemies, or All instead of a number.)* |
 
 ## Effects
@@ -87,7 +87,7 @@ The *__Effects__* of each **Ability** can get really complex, enough so that thi
 
 | *__Effect Type__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
-| Activate **Ability** | +2 per X over 1 | This **Ability** activates **\[X\]** **Abilities** when it resolves. You may choose their order. **Abilities** taken this way have their **Ability Point Costs** added to this **Ability**. *(X begins at 0, Minimum 0.)* |
+| Activate **Ability** | 0 per X | This **Ability** activates **\[X\]** **Abilities** when it resolves. You may choose their order. **Abilities** taken this way have their **Ability Point Costs** added to this **Ability**. *(X begins at 0, Minimum 0.)* |
 | Affects **Gear** | +2 | This **Ability** also applies Damage, Recovery, or **Tags** to its targets' **Gear**. The GM decides what **Gear** it hits for each target. |
 | Can Target Self | 0 | This **Ability** can apply its **Effects** to you. If this **Ability** has only 1 target, you may choose just yourself. |
 | Change **Aptitude** | +1 per 5X | This **Ability** either increases or decreases one **Aptitude** of its targets by **\[X\]**. You choose whether it increases or decreases when **Buying Abilities**. This **Effect** can be taken multiple times, each time choosing a different **Aptitude**. *(X begins at 0, Minimum 0.)* |
@@ -95,16 +95,18 @@ The *__Effects__* of each **Ability** can get really complex, enough so that thi
 | Change Damage Input | +2 per X | This **Ability** changes its targets' Damage input by **\[X\]**. *(X begins at 0, Minimum 0.)* |
 | Change Damage Output | +2 per X | This **Ability** changes its targets' Damage output by **\[X\]**. *(X begins at 0, Minimum 0.)* |
 | Change **<i class="fa-solid fa-person-falling"></i>Evasion** | +1 per 5X | This **Ability** either increases of decreases its targets' **<i class="fa-solid fa-person-falling"></i>Evasion** by **\[X\]**. *(X begins at 0, Minimum 0.)* |
+| Change **Initiative** | +2 per 5X | This **Ability** changes its targets' **Initiative** by **\[X\]**. *(X begins at 0, Minimum 0.)* |
 | Change Recovery Input | +2 per X | This **Ability** changes its targets' Recovery input by **\[X\]**. *(X begins at 0, Minimum 0.)* |
 | Change Recovery Output | +2 per X | This **Ability** changes its targets' Recovery output by **\[X\]**.  *(X begins at 0, Minimum 0.)* |
 | Change **Row** | +2 if Swapping, +1 if Forced, 0 if neither | This **Ability** allows you to shift your position within your party's combat formation, either swapping between the **Front** and **Back Rows** or forcibly moving you to either **Row**. |
 | Change **Size** | +4 per X | This **Ability** scales its targets' **Size** by **\[X\]** Stages, recalculating their **Heft**, **<i class="fa-solid fa-person-falling"></i>Evasion**, and maximum **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**. *(X begins at 0, Minimum 0.)* |
 | Change **Tags** | +2 per X | This **Ability** grants its targets **\[X\]** different **Tags**. If a **Tag** is an **Element Tag**, choose either **Resistance** or **Weakness** for that **Tag** when **Buying Abilities**. If a **Tag** is a **Gear Tag**, choose either *Adept* or *Inept* when **Buying Abilities**. If a **Tag** is a **Gear Slot Tag**, choose either to add or subtract 1 from its *Count* when **Buying Abilities**. Requires at least one **Element Tag**, **Gear Tag**, or **Race Tag** on this **Ability**. |
-| Create Character | +1 per X over 1, +2 per Y, +1 per Z | This **Ability** creates **\[X\]** copies of **\[Y\]** unique characters at **Level \[Z\]**, placing them next to the **Ability's** targets in a **Row** of your choosing. This may cause the enemy groups to become **Surrounded**. *(X begins at 1, Minimum 1. Y and Z begin at 0, Minimum 0.)* |
+| Create Character | +1 per X over 1, +2 per Y, +1 per Z | This **Ability** creates **\[X\]** copies of **\[Y\]** unique characters at **Level \[Z\]**, placing them next to the **Ability's** targets in a **Row** of your choosing. This may cause the enemy groups to become **Surrounded**. Characters created this way share your **Initiative** and **Action Points**. *(X begins at 1, Minimum 1. Y and Z begin at 0, Minimum 0.)* |
 | Create **Gear** | +1 | This **Ability** creates one piece of **Gear** for each of the **Ability's** targets that dissipates after its **Duration** ends. The created **Gear** must be *Head*, *Body*, *Foot*, *Hand*, or *Accessory* **Gear**. Requires at least one **Gear Tag** on this **Ability**. This **Effect** can be taken multiple times to create more **Gear**, each one choosing a new **Gear Tag** available within this **Ability**. |
 | Damage **Resource** | +2 per X over 1, +1 per 2Y over 2, +1 per Z | This **Ability** deals **\[X\]d\[Y\]+\[Z\]** damage to each of its targets' specific **Resource(s)** when it resolves. This **Effect** can be taken multiple times, each time choosing a different **Resource** to affect. *(X begins at 0, Minimum 0. Y begins at 2, Minimum 2, Maximum 12. Z begins at 0, Minimum 0.)* |
 | Destroy | ? | This **Ability** destroys its targets, completely vaporizing them. |
 | Dispel **Ability** | +4 | This **Ability** dispels one of its targets' **Abilities**. **Abilities** can't activate or resolve while dispelled and, if they were active, the current active **Effects** are removed from the targets when dispelled. |
+| End Turn | +4 | This **Ability** immediately ends its targets' current **Turns**. If it's not their **Turn**, nothing happens. Requires a **Duration** of 0 on this **Ability**. |
 | Gain **<i class="fa-solid fa-shield-halved"></i>Conditional Defense** | +1 per X | This **Ability** grants its targets **\[X\]** **<i class="fa-solid fa-shield-halved"></i>Conditional Defense**. Requires at least one **Tag** on this **Ability**. *(X begins at 0, Minimum 0)*. |
 | Gain **<i class="fa-solid fa-shield-halved"></i>Global Defense** | +4 per X | This **Ability** grants its targets **\[X\]** **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *(X begins at 0, Minimum 0)*. |
 | Gain Temporary **<i class="fa-solid fa-gem"></i>Action Points** | ? | This **Ability** grants **\[X\]** temporary **<i class="fa-solid fa-gem"></i>Action Points** to its targets. Temporary **<i class="fa-solid fa-gem"></i>Action Points** are lost upon ending your **Turn** or changing your **Initiative**. |
@@ -122,7 +124,8 @@ The *__Effects__* of each **Ability** can get really complex, enough so that thi
 | Kill | ? | This **Ability** kills its targets. |
 | Provoke | +1 | This **Ability** forces its targets' **Abilities** to target you. |
 | Recover **Resource** | +2 per X over 1, +1 per 2Y over 2, +1 per Z | This **Ability** recovers each of its targets specific **Resource(s)** by **\[X\]d\[Y\]+\[Z\]** when it resolves. This **Effect** can be taken multiple times, each time choosing a different **Resource** to affect. *(X begins at 0, Minimum 0. Y begins at 2, Maximum 12. Z begins at 0, Minimum 0.)* |
-| Revive | +10 | This **Ability** revives dead targets when it resolves, setting their *__<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>__* to 1 and they stablize, no longer unconscious or dying. |
+| Revive | +10 | This **Ability** revives dead targets when it resolves, setting their *__<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>__* to 1 and they stablize, no longer unconscious, dying, or dead. |
+| Skip Next Turn | +10 | This **Ability** forcibly skips its targets' next **Turns**. |
 
 > [!NOTE]
 > *__Effects__* with an **Ability Point Cost** of **?** can't be purchased by player characters if they make their own **Abilities**. The GM may utilize these *__Effects__* and grant them to player **Abilities**.
@@ -133,21 +136,18 @@ An **Ability's Effects** utilize and reference a number of *__Element Tags__*. L
 - Piercing
 - Bludgeoning
 - Fire
-- Water
-- Ice
+- Cold
 - Earth
 - Air
 - Lightning
-- Poison
 - Life
 - Metal
 - Radiant
 - Umbral
-- Aging
+- Age
 - Cosmic
 - Mental
 - Spirit
-- Void
 
 ## Elemental Effectiveness
 Whenever you activate an **Ability**, that **Ability's** *__Elemental Effectiveness__* takes into consideration all **Element Tags** related to it. An **Ability** can be **Absorbed**, **Resisted**, **Effective**, **Powerful**, or **Severe**. Characters and objects may have one or more **Resistances** or **Weaknesses** related to specific **Element Tags**.
