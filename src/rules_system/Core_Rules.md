@@ -39,7 +39,7 @@ Characters have a pool of *__<i class="fa-solid fa-gem"></i>Action Points__* tha
 ## Gear
 Characters can use various pieces of *__Gear__* to further augment their capabilities. *__Gear__* comes in many forms, such as *Consumable* or *Equipment*.
 
-A character may equip one *Head* *__Gear__*, one *Body* *__Gear__*, one *Foot* *__Gear__*, up to two *Hand* *__Gear__*, and up to 3 *Accessory* *__Gear__* at a given time, although this can change in various ways during gameplay. Each piece of *__Gear__* comes with a set of *Tags* that help explain how they functionally work and feel. *__Gear__* may also bestow new **Abilities** to characters that equip those pieces.
+A character may equip a number of *Head* *__Gear__*, *Body* *__Gear__*, *Foot* *__Gear__*, *Hand* *__Gear__*, and *Accessory* *__Gear__* equal to their available **Gear Slot Tag Counts** in each of those categories at a given time, although this can change in various ways during gameplay. Each piece of *__Gear__* comes with a set of **Tags** that help explain how they functionally work and feel. *__Gear__* may also bestow new **Abilities** to characters that equip them.
 
 *__Gear__* also has **Density** and **Durability**; The more **Density** a piece of *__Gear__* has, the more durable and heavy it is. **Density** works similarly to a character's **<i class="fa-solid fa-shield-halved"></i>Global Defense** in that it blocks all forms of incoming damage dealt to it. **Durability**, on the other hand, works like a character's **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**; If a piece of *__Gear's__* **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** ever hits zero, that piece of *__Gear__* is completely destroyed.
 

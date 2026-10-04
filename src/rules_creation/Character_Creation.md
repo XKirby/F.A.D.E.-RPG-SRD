@@ -13,6 +13,15 @@ Besides the previously mentioned, each character has various *__Major Properties
 ### Level
 A character's *__Level__* is a quick determining factor for how strong a character is. Whenever you gain one or more *__Levels__*, you become more powerful. Characters start at *__Level__* 0.
 
+### Tags
+A character can have one or more *__Tags__*. These *__Tags__* include the following list:
+- <u>**Element Tag Resistance:**</u> This character **Resists** damage dealt and recovery gained from this **Element**.
+- <u>**Element Tag Weakness:**</u> This character is **Weak** to damage dealt and recovery gained from this **Element**.
+- <u>**Gear Tag Adept:**</u> This character gains a +10 bonus to **d% Checks** that reference **Gear** with this *__Tag__*.
+- <u>**Gear Tag Inept:**</u> This character gains a -10 penalty to **d% Checks** that reference **Gear** with this *__Tag__*.
+- <u>**Gear Slot Tag Count:**</u> This character can equip a number of **Gear** in the listed **Gear Slot** with that **Gear Slot Tag**.
+- <u>**Race Tag:**</u> This character has ancestry with this *__Tag__*. **Race Tags** are listed further down on this page.
+
 ### Heft
 A character's *__Heft__* is a multiplier to their carrying capacity. The higher a character's *__Heft__*, the more that character can effectively lift and carry. A character can hold **Gear** with total **Weight** less than or equal to their **<a style="color:#ff4040">Physique</a>** x *__Heft__*.
 
@@ -57,3 +66,31 @@ Additionally, the *__Experience__* gained during the game scales down a number o
 
 > [!TIP]
 > **Experience**, while recommended as the source in which you **Level Up**, may not work for your campaign. If that is the case, you may opt for the **Milestone** system instead; If a player does something noteworthy, you can grant them the ability to immediately **Level Up**. Be wary when using this system, as you don't want to have a huge **Level** disparity amongst your party's players.
+
+## Race Tags
+As mentioned above, a character's *__Race Tags__* determine their ancestry. Some **Abilities** may only be used by or can only target certain *__Race Tags__*. The following *__Race Tag__* list is what this SRD utilizes in all of its content, but feel to make your own:
+- Alien
+- Angel
+- Animal
+- Avatar
+- Abberation
+- Arachnid
+- Beast
+- Bird
+- Celestial
+- Construct
+- Deity
+- Demon
+- Dragon
+- Entity
+- Fey
+- Horror
+- Humanoid
+- Insect
+- Otherworldly
+- Reptile
+- Seacreature
+- Serpent
+- Spirit
+- Vampire
+- Wereanimal

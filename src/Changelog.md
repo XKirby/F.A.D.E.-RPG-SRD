@@ -1,6 +1,68 @@
 # Changelog
 Changes to the SRD are found here, in descending order.
 
+## October 4, 2026
+### Additions
+- Added Character **Tags** in *Character_Creation.md*.
+- Added the following **Race Tags** to *Character_Creation.md*.
+  - Alien
+  - Angel
+  - Animal
+  - Avatar
+  - Abberation
+  - Arachnid
+  - Beast
+  - Bird
+  - Celestial
+  - Construct
+  - Deity
+  - Demon
+  - Dragon
+  - Entity
+  - Fey
+  - Horror
+  - Humanoid
+  - Insect
+  - Otherworldly
+  - Reptile
+  - Seacreature
+  - Serpent
+  - Spirit
+  - Vampire
+  - Wereanimal
+- Added mention of how **Experience** is acquired from combat in *Combat_Rules.md*.
+- Added the following **Effects** to *Creating_Abilities.md*.
+  - Affects **Gear**
+  - Can Target Self
+  - Change Damage Input
+  - Change Damage Output
+  - Change **<i class="fa-solid fa-person-falling"></i>Evasion**
+  - Change Recovery Input
+  - Change Recovery Output
+  - Change Size
+  - Change Tags
+  - Dispel **Ability**
+  - Gain **<i class="fa-solid fa-shield-halved"></i>Conditional Defense**
+  - Gain **<i class="fa-solid fa-shield-halved"></i>Global Defense**
+  - Has Critical Range
+  - Has **Race Tag**
+  - Invert Damage When **Absorbed**
+  - Invert Recovery When **Severe**
+  - Provoke
+  - Revive
+- Added a new set of **Effects** to the *Pass* **Basic Ability** found in *Combat_Rules.md*.
+  - The old version of *Pass* was renamed to *Postpone*.
+- Added a Tip about how the GM can utilize the **Row System** to *Combat_Rules.md*.
+### Changes
+- Changed *Unarmed Strike* **Basic Ability** in *Combat_Rules.md*.
+- Reworked how **Gear Slots** are calculated and utilzed.
+  - Characters now have a number of **Gear Slot Tags** with *Counts* determining how many pieces can be equipped of that **Gear Slot** category.
+- Renamed the following **Effects** in *Creating_Abilities.md*.
+  - Is Illusory -> Is Illusion
+  - Has Success Range -> Has Failure Range
+- Reworked Damage **Resource** and Recover **Resource** so that they can accept flat values.
+- Some **Effects** now actively mention that they can be taken repeatedly.
+
 ## October 3, 2026
 ### Additions
 - Added *Combat_Rules.md*.

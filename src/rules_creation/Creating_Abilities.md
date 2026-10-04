@@ -26,7 +26,7 @@ The *__Alternative Costs__* of an **Ability** list what it consumes before it ca
 **Abilities** with *__Requirements__* will actively ask you for specific **Conditions** to be met before they're allowed to be used. Unlike **Costs**, *__Requirements__* are not actively consumed or destroyed upon use, instead acting moreso as a checklist for it to work at all. Once every **Condition** has been met, you may use the **Ability**. *__Requirements__* can have one or more of the following *Conditions*:
 - <u>**Resource Condition:**</u> This **Condition** looks at one or more of your **Resources** and compares them to specific values. *(For example, if your Health is less than half its maximum.)*
 - <u>**Gear Condition:**</u> This **Condition** looks at one or more pieces of **Gear** and compares them to specific values. *(For example, if one piece of Gear has the Sword Tag.)*
-- <u>**Character Condition:**</u> This **Condition** looks at one or more characters and compares them to specific values. *(For example, if any nearby Characters are considered Allies.)*
+- <u>**Character Condition:**</u> This **Condition** looks at one or more characters and compares them to specific values. *(For example, if any nearby Characters are Humanoid.)*
 
 ### Targets, Frequency, and Duration
 An **Ability** has a list of *__Targets__* it affects. *__Targets__* can be one or more of the following:
@@ -41,14 +41,14 @@ An **Ability's** *__Duration__* determines how long it remains active. *(For exa
 ## Buying Abilities
 *__Buying Abilities__* you make for yourself during the *Leveling Up* process involves spending **Ability Points** gained during that process. *Ability Properties* either increase or decrease the **Ability Point Cost** of the **Ability** in question.
 
-When *__Buying Abilities__*, each *Ability Property* has specific **Ability Point Cost** values, listed below. Positive **Ability Point Costs** must be paid, while negative **Ability Point Costs** grant extra **Ability Points** you can spend. You can only gain a total of extra **Ability Points** equal to your *Current Level x 2* from all additions and changes made this way each time you *__Buy Abilities__*.
+When *__Buying Abilities__*, each **Ability Property** has specific **Ability Point Cost** values, listed below. Positive **Ability Point Costs** must be paid, while negative **Ability Point Costs** grant extra **Ability Points** you can spend. You can only gain a total of extra **Ability Points** equal to your Current **Level** x 2 from all additions and changes made this way each time you *__Buy Abilities__*.
 
 If a new **Ability** would be created, you must give it a unique name.
 
 | *__Type Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
 | *Active* | 0 | This **Ability** must be activated manually within its **Requirements'** restrictions before taking effect. |
-| *Innate* | +2 if one or more **Requirements**, otherwise +6 | This **Ability** is always active if its **Requirements** are met. |
+| *Innate* | +2 | This **Ability** is active if its **Requirements** are met. It must have at least one **Requirement**. |
 
 <br />
 
@@ -62,7 +62,7 @@ If a new **Ability** would be created, you must give it a unique name.
 
 | *__Alternative Cost Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
-| **<i class="fa-solid fa-gem"></i>Action Points** | -2 per X over 1, +6 if X is 0 | This **Ability** costs **\[X\]** **<i class="fa-solid fa-gem"></i>Action Points** to utilize it. **Abilities** that cost 0 **Action Points** must either have another *__Alternative Cost__* or a **Frequency** above 0. *(X begins at 1, Minimum of 0, Maximum of 3.)* |
+| **<i class="fa-solid fa-gem"></i>Action Points** | -2 per X over 1, +4 if X is 0 | This **Ability** costs **\[X\]** **<i class="fa-solid fa-gem"></i>Action Points** to utilize it. **Abilities** that cost 0 **Action Points** must either have another *__Alternative Cost__* or a **Frequency** above 0. *(X begins at 1, Minimum of 0, Maximum of 3.)* |
 | **Resources** | -0.2 per X, -1 per Y over 1 | This **Ability** costs **\[X\]** from **\[Y\]** matching **Resources**. *(Each Resource Alternative Cost may have a different \[X\]. X begins at 1, Minimum 1. Y begins at 0, Minimum 0.)* |
 | **Gear** | -0.2 per X, -1 per Y over 1 | This **Ability** costs **\[X\]** pieces of **Gear** with **\[Y\]** matching **Gear Tags**. The **Gear** consumed this way stays active until this **Ability** resolves. *(Each Gear Alternative Cost may have a different \[X\]. X begins at 1, Minimum 1. Y begins at 0, Minimum 0.)* |
 
@@ -70,43 +70,62 @@ If a new **Ability** would be created, you must give it a unique name.
 
 | *__Requirement Condition Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
-| **Resource** Conditions | -0.1 per 10X, -1 per Y over 1 | This **Ability** can only be utilized if **\[Y\]** matching **Resources** are greater than or equal to **\[X\]** of their maximum values. *(Each Resource Condition may have a different \[X\]. Each \[X\] may be mirrored instead to check whether those Resources are less than or equal to the flip of that value. For example, greater than or equal to 20% mirrored becomes less than or equal to 80%. Minimum 10%, Maximum 100%.)* |
-| **Gear** Conditions | -1 per X | This **Ability** can only be utilized with **Gear** that has **\[X\]** matching *Tags*. *(Minimum 0.)* |
-| Character Conditions | -1 per X, -2 per Y over 1, -1 if also targeted | This **Ability** can only be utilized when **\[Y\]** different characters that have **\[X\]** matching properties are either just nearby or are nearby and also targeted. *(X begins at 0, Minimum 0. Y begins at 1, Minimum 1.)* |
+| **Resource** Conditions | -0.2 per 10X, -1 per Y over 1 | This **Ability** can only be utilized if **\[Y\]** matching **Resources** are greater than or equal to **\[X\]** of their maximum values. *(Each Resource Condition may have a different \[X\]. Each \[X\] may be mirrored instead to check whether those Resources are less than or equal to the flip of that value. For example, greater than or equal to 20% mirrored becomes less than or equal to 80%. X begins at 0%, Minimum 0%, Maximum 100%. Y begins at 1, Minimum 1, Maximum 3.)* |
+| **Gear** Conditions | -1 per X | This **Ability** can only be utilized with **Gear** that has **\[X\]** matching **Tags**. *(X begins at 0, Minimum 0.)* |
+| Character Conditions | -1 per X, -2 per Y over 1, -1 if also targeted | This **Ability** can only be utilized when **\[Y\]** different characters that have **\[X\]** matching **Tags** are either just nearby or are nearby and also targeted. *(X begins at 0, Minimum 0. Y begins at 1, Minimum 1.)* |
 
 <br />
 
 | *__Other Property Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
-| *Frequency* | -0.5 per X | This **Ability** can only be used once every **\[X\]** rounds. *(Minimum 0.)* |
-| *Duration* | +0.5 per X | This **Ability** lingers for a Duration of **\[X\]** rounds. *(X begins at 0, Minimum 0, Maximum 20. If X is 20, this Ability is permanent.)* |
-| *Targets* | +1 per X over 1, +2 if X is All, +4 if X is Allies or Enemies. | This **Ability** hits **\[X\]** targets within reach. *(X begins at 1, Minimum 1, Maximum 4. X can also be Allies, Enemies, or All.)* |
+| *Frequency* | -1 per X | This **Ability** can only be used once every **\[X\]** rounds. *(Minimum 0.)* |
+| *Duration* | +1 per X | This **Ability** lingers for a Duration of **\[X\]** rounds. *(X begins at 0, Minimum 0, Maximum 20. If X is 20, this Ability is permanent instead.)* |
+| *Targets* | +1 per X over 1, +3 if X is All, +6 if X is All Allies or All Enemies. | This **Ability** hits up to **\[X\]** targets within reach. *(X begins at 1, Minimum 1, Maximum 4. X can be All Allies, All Enemies, or All instead of a number.)* |
 
 ## Effects
 The *__Effects__* of each **Ability** can get really complex, enough so that this guide can't cover every instance. Both to stay with the active theme of *Simplicity First* and to ease you into the creative process a bit more, the following list of *__Effects__* will be basic building blocks that you can utilize in further ways:
 
 | *__Effect Type__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
-| Activate Ability | +2 per X over 1 | This **Ability** activates **\[X\]** **Abilities** when it resolves. You may choose their order. Extra **Abilities** created this way have their **Ability Point Costs** added to this **Ability**. *(X begins at 0, Minimum 0.)* |
-| Change Aptitude | +1 per 5X, +1 per Y over 1. | This **Ability** either increases or decreases the listed **\[Y\]** **Aptitudes** of its targets by **\[X\]**. You choose whether it increases or decreases when **Buying Abilities**. *(Each Aptitude may have a different \[X\]. X begins at 0, Minimum 0. Y begins at 1, Minimum 1.)* |
-| Change Row | +2 if swap, +1 if fixed, 0 if neither | This **Ability** allows you to shift your position within your party's combat formation, either swapping between the **Front** and **Back Rows** or forcibly moving you to either **Row**. |
-| Change Base Stat | +2 per 5X, +2 per Y over 1. | This **Ability** either increases or decreases the listed **\[Y\]** **Base Stats** of its targets by **\[X\]**. *(Each Base Stat may have a different \[X\]. X begins at 0, Minimum 0. Y begins at 1, Minimum 1.)* |
-| Create Character | +1 per X over 1, +2 per Y, +1 per Z | This **Ability** creates **\[X\]** copies of **\[Y\]** unique characters at **Level \[Z\]**, placing them next to the **Ability's** target or targets of your choosing. *(X begins at 1, Minimum 1. Y and Z begin at 0, Minimum 0.)* |
-| Create Gear | +1 | This **Ability** creates a piece of Gear near the **Ability's** target or targets that crumbles after its **Duration** ends. Requires at least one **Gear Tag** on the **Ability** to take this. |
-| Is Illusory | -2 | This **Ability** is an illusion to its targets and requires a **d% Check** to determine whether or not it is fake. |
-| Damage Resource | +2 per X over 1, +1 per 2Y over 2, +1 per Z over 1 | This **Ability** deals **\[X\]d\[Y\]** damage to each of its targets' listed **\[Z\] Resources** when it resolves. *(Each Damage may have a different \[X\]. X begins at 0, Minimum 0. Y begins at 2, Maximum of 12. Z begins at 1, Minimum 1, Maximum 3.)* |
-| Destroy | \* | This **Ability** destroys its targets, completely vaporizing them. |
-| Gain Temporary **<i class="fa-solid fa-gem"></i>Action Points** | \* | This **Ability** grants **\[X\]** temporary **<i class="fa-solid fa-gem"></i>Action Points** to its targets. Temporary **<i class="fa-solid fa-gem"></i>Action Points** are lost upon ending your **Turn** or changing your **Initiative**. |
-| Has Base Stat | +6 if X is 3, +3 if X is 2, 0 if X is 1 | This **Ability** can only utilize the user's **\[X\]** listed **Base Stats** when referencing any of them. *(X begins at 1, Minimum 1, Maximum 3.)* |
-| Has Element Tag | +1 per X over 1 | This **Ability** has **\[X\]** listed **Element Tags** that may determine its effectiveness when it resolves. *(X begins at 1, Minimum 1.)* |
-| Has Gear Tag | +1 per X | This **Ability** has **\[X\]** listed **Gear Tags** that may determine its effectiveness when it resolves. *(X begins at 0, Minimum 0.)* |
-| Has Success Range | -1 if it can Fail, -2 if it can't Critical Success, +2 if it can't Critical Failure | This **Ability** has a **d% Check** and can Suceed or Fail, either Critically or not. Each range may have one or more **Effects**. |
-| Has Random Range | -1 per X | This **Ability** has **\[X\]** extra ranges that are applied at random to it that may determine its effectiveness when it resolves. Each range may have one or more **Effects**. *(X begins at 0, Minimum 0.)* |
+| Activate **Ability** | +2 per X over 1 | This **Ability** activates **\[X\]** **Abilities** when it resolves. You may choose their order. **Abilities** taken this way have their **Ability Point Costs** added to this **Ability**. *(X begins at 0, Minimum 0.)* |
+| Affects **Gear** | +2 | This **Ability** also applies Damage, Recovery, or **Tags** to its targets' **Gear**. The GM decides what **Gear** it hits for each target. |
+| Can Target Self | 0 | This **Ability** can apply its **Effects** to you. If this **Ability** has only 1 target, you may choose just yourself. |
+| Change **Aptitude** | +1 per 5X | This **Ability** either increases or decreases one **Aptitude** of its targets by **\[X\]**. You choose whether it increases or decreases when **Buying Abilities**. This **Effect** can be taken multiple times, each time choosing a different **Aptitude**. *(X begins at 0, Minimum 0.)* |
+| Change **Base Stat** | +2 per 5X, +2 per Y over 1. | This **Ability** either increases or decreases the listed **\[Y\]** **Base Stats** of its targets by **\[X\]**. *(Each Base Stat may have a different \[X\]. X begins at 0, Minimum 0. Y begins at 1, Minimum 1.)* |
+| Change Damage Input | +2 per X | This **Ability** changes its targets' Damage input by **\[X\]**. *(X begins at 0, Minimum 0.)* |
+| Change Damage Output | +2 per X | This **Ability** changes its targets' Damage output by **\[X\]**. *(X begins at 0, Minimum 0.)* |
+| Change **<i class="fa-solid fa-person-falling"></i>Evasion** | +1 per 5X | This **Ability** either increases of decreases its targets' **<i class="fa-solid fa-person-falling"></i>Evasion** by **\[X\]**. *(X begins at 0, Minimum 0.)* |
+| Change Recovery Input | +2 per X | This **Ability** changes its targets' Recovery input by **\[X\]**. *(X begins at 0, Minimum 0.)* |
+| Change Recovery Output | +2 per X | This **Ability** changes its targets' Recovery output by **\[X\]**.  *(X begins at 0, Minimum 0.)* |
+| Change **Row** | +2 if Swapping, +1 if Forced, 0 if neither | This **Ability** allows you to shift your position within your party's combat formation, either swapping between the **Front** and **Back Rows** or forcibly moving you to either **Row**. |
+| Change **Size** | +4 per X | This **Ability** scales its targets' **Size** by **\[X\]** Stages, recalculating their **Heft**, **<i class="fa-solid fa-person-falling"></i>Evasion**, and maximum **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**. *(X begins at 0, Minimum 0.)* |
+| Change **Tags** | +2 per X | This **Ability** grants its targets **\[X\]** different **Tags**. If a **Tag** is an **Element Tag**, choose either **Resistance** or **Weakness** for that **Tag** when **Buying Abilities**. If a **Tag** is a **Gear Tag**, choose either *Adept* or *Inept* when **Buying Abilities**. If a **Tag** is a **Gear Slot Tag**, choose either to add or subtract 1 from its *Count* when **Buying Abilities**. Requires at least one **Element Tag**, **Gear Tag**, or **Race Tag** on this **Ability**. |
+| Create Character | +1 per X over 1, +2 per Y, +1 per Z | This **Ability** creates **\[X\]** copies of **\[Y\]** unique characters at **Level \[Z\]**, placing them next to the **Ability's** targets in a **Row** of your choosing. This may cause the enemy groups to become **Surrounded**. *(X begins at 1, Minimum 1. Y and Z begin at 0, Minimum 0.)* |
+| Create **Gear** | +1 | This **Ability** creates one piece of **Gear** for each of the **Ability's** targets that dissipates after its **Duration** ends. The created **Gear** must be *Head*, *Body*, *Foot*, *Hand*, or *Accessory* **Gear**. Requires at least one **Gear Tag** on this **Ability**. This **Effect** can be taken multiple times to create more **Gear**, each one choosing a new **Gear Tag** available within this **Ability**. |
+| Damage **Resource** | +2 per X over 1, +1 per 2Y over 2, +1 per Z | This **Ability** deals **\[X\]d\[Y\]+\[Z\]** damage to each of its targets' specific **Resource(s)** when it resolves. This **Effect** can be taken multiple times, each time choosing a different **Resource** to affect. *(X begins at 0, Minimum 0. Y begins at 2, Minimum 2, Maximum 12. Z begins at 0, Minimum 0.)* |
+| Destroy | ? | This **Ability** destroys its targets, completely vaporizing them. |
+| Dispel **Ability** | +4 | This **Ability** dispels one of its targets' **Abilities**. **Abilities** can't activate or resolve while dispelled and, if they were active, the current active **Effects** are removed from the targets when dispelled. |
+| Gain **<i class="fa-solid fa-shield-halved"></i>Conditional Defense** | +1 per X | This **Ability** grants its targets **\[X\]** **<i class="fa-solid fa-shield-halved"></i>Conditional Defense**. Requires at least one **Tag** on this **Ability**. *(X begins at 0, Minimum 0)*. |
+| Gain **<i class="fa-solid fa-shield-halved"></i>Global Defense** | +4 per X | This **Ability** grants its targets **\[X\]** **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *(X begins at 0, Minimum 0)*. |
+| Gain Temporary **<i class="fa-solid fa-gem"></i>Action Points** | ? | This **Ability** grants **\[X\]** temporary **<i class="fa-solid fa-gem"></i>Action Points** to its targets. Temporary **<i class="fa-solid fa-gem"></i>Action Points** are lost upon ending your **Turn** or changing your **Initiative**. |
+| Has **Base Stat** | +2 per X over 1 | This **Ability** can only utilize the user’s **\[X\]** listed **Base Stats** when referencing any of them. *(X begins at 1, Minimum 1, Maximum 3.)* |
+| Has Critical Range | -2 if it can't Critical Success, +2 if it can't Critical Failure | This **Ability** can **Critical Success**, **Critical Failure**, or both. Each range may have one or more **Effects**. |
+| Has **Element Tags** | +1 per X over 1 | This **Ability** has **\[X\]** listed **Element Tags** that may determine its effectiveness when it resolves. *(X begins at 1, Minimum 1.)* |
+| Has Failure Range | -1 | This **Ability** has a **d% Check** and can Suceed or Fail. Each range may have one or more **Effects**. |
+| Has **Gear Tags** | +1 per X | This **Ability** has **\[X\]** listed **Gear Tags** that may determine its effectiveness when it resolves. *(X begins at 0, Minimum 0.)* |
+| Has **Race Tags** | +1 per X | This **Ability** has **\[X\]** listed **Race Tags** that may determine its effectiveness when it resolves. *(X begins at 0, Minimum 0.)* |
+| Has Random Range | -2 per X | This **Ability** has **\[X\]** extra ranges that are applied at random to it that may determine its effectiveness when it resolves. Each range may have one or more **Effects**. This **Effect** can be taken multiple times, each time choosing different **Effects** tied to each range. *(For each Random Range where X is above 0, roll 1d(r+1), where "r" is that many ranges available. X begins at 0, Minimum 0.)* |
 | Has Reach | +2 per X over 1 | This **Ability** can reach up to **\[X\] Rows** away. *(X begins at 1, Minimum 1, Maximum 3.)* |
-| Kill | \* | This **Ability** kills its targets. |
-| Recover Resource | +2 per X over 1, +0.2 per 2Y over 2, +1 per Z over 1 | This **Ability** has each of its targets recover the listed **\[Z\] Resources** by **\[X\]d\[Y\]** when it resolves. *(Each Recovery may have a different \[X\]. X begins at 0, Minimum 0. Y begins at 2, Maximum 12. Z begins at 1.)* |
+| Invert Damage When **Absorbed** | ? | This **Ability** recovers its targets equal to the damage's **Effective** value when that damage is **Absorbed**. |
+| Invert Recovery When **Severe** | ? | This **Ability** damages its targets equal to that recovery's **Effective** value when that recovery is **Severe**. |
+| Is Illusion | -2 | This **Ability** is an illusion to its targets and requires a **d% Check** to determine whether or not it is fake. |
+| Kill | ? | This **Ability** kills its targets. |
+| Provoke | +1 | This **Ability** forces its targets' **Abilities** to target you. |
+| Recover **Resource** | +2 per X over 1, +1 per 2Y over 2, +1 per Z | This **Ability** recovers each of its targets specific **Resource(s)** by **\[X\]d\[Y\]+\[Z\]** when it resolves. This **Effect** can be taken multiple times, each time choosing a different **Resource** to affect. *(X begins at 0, Minimum 0. Y begins at 2, Maximum 12. Z begins at 0, Minimum 0.)* |
+| Revive | +10 | This **Ability** revives dead targets when it resolves, setting their *__<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>__* to 1 and they stablize, no longer unconscious or dying. |
 
-*__Effects__* with an **Ability Point Cost** of \* can't be purchased by player characters.
+> [!NOTE]
+> *__Effects__* with an **Ability Point Cost** of **?** can't be purchased by player characters if they make their own **Abilities**. The GM may utilize these *__Effects__* and grant them to player **Abilities**.
 
 ## Element Tags
 An **Ability's Effects** utilize and reference a number of *__Element Tags__*. Like **Gear Tags**, *__Element Tags__* are used as a form of restriction and classification of what your **Abilities** can offer you. The following *__Element Tag__* list is what this SRD utilizes in all of its content, but feel to make your own:
