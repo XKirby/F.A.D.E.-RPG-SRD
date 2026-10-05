@@ -1,6 +1,30 @@
 # Changelog
 Changes to the SRD are found here, in descending order.
 
+## October 5, 2026
+### Additions
+- Added the following **Effects** to *Creating_Abilities.md*.
+  - Confuse
+  - Steal
+  - Stun
+- Added the necessity to **Buy Abilities** for characters created from the Create Character **Effect** in *Creating_Abilities.md*.
+### Changes
+- Further fleshed out the Create Gear **Effect** in *Creating_Abilities.md*.
+- Changed the Affects Gear **Effect** to cause that **Ability** to only hit its targets' **Gear**.
+- Changed the Affects Gear **Effect** to allow the user to choose what **Gear** it hits instead of the GM.
+- The following **Effects** in *Creating_Abilities.md* now require at least one **Element Tag**.
+  - Change Damage Input
+  - Change Damage Output
+  - Change Recovery Input
+  - Change Recovery Output
+  - Damage **Resource**
+  - Randomly Targets
+  - Recover **Resource**
+- Changed how the variables listed in *Creating_Abilities.md* are calculated to make them more clear (hopefully).
+- Reworked the Dispel Ability **Effect** in *Creating_Abilities.md*.
+  - It no longer prevents **Ability** activation and resolution.
+- Changed the *Targets* **Ability Property** in *Creating_Abilities.md* to always affect a minimum of 1 target.
+
 ## October 4, 2026
 ### Additions
 - Added Character **Tags** in *Character_Creation.md*.
