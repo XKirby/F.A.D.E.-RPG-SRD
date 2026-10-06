@@ -5,10 +5,13 @@ Changes to the SRD are found here, with more recent changes appearing near the t
 > [!CAUTION]
 > I ended up using ChatGPT to find whether or not there were infinite loops or triggers with Abilities, so this update fixes most of the Ability oversights found this way.
 ### Additions
-- Added **Ability** First-In-Last-Out *Stack* rules to *Introduction.md*.
+- Added **Ability** First-In-Last-Out *Stack* resolution rules to *Introduction.md*.
+- Added the following **Effects** to *Creating_Abilities.md*.
+  - Restrict **Effects**
+  - Restrict **Tags**
 - Added the following **Ability Properties** to *Creating_Abilities.md*.
   - Fast
-- Added **Effect** First-In-First-Out resolution rules to *Introduction.md.*
+- Added **Effect** First-In-First-Out **Ability** resolution rules to *Introduction.md.*
 - Added mention of characters from Create Character **Effect** dissipating when its **Ability's Duration** ends.
 ### Changes
 - Changed *Duration* **Ability Property** to specify when an **Ability** ends when it's **Duration** is 0.
@@ -28,6 +31,13 @@ Changes to the SRD are found here, with more recent changes appearing near the t
   - Has **Race Tags**
 - Changed Gear Conditions **Ability Property** to User **Tag** Conditions.
 - Changed Character Conditions **Ability Property** to Target **Tag** Conditions.
+- Changed Provoke **Effect** to always replace old instances when a new one is applied.
+- Changed Has Element Tags **Ability Property's Ability Point Cost** from +1 per X to +1 per X over 1.
+- Changed Activate Ability **Effect** to have only certain **Ability Properties** be allowed.
+- Changed Invert Damage When Absorbed **Effect** to Invert Damage When Resistance, increasing its possible Effectiveness Range.
+- Changed Invert Recovery When Severe **Effect** to Invert Recovery When Weakness, increasing its possible Effectiveness Range.
+### Removals
+- Removed Is Illusion **Effect**. You can get a similar effect with Has Failure Range instead.
 
 ## October 5, 2026
 ### Additions
