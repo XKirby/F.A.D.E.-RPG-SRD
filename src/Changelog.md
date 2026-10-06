@@ -5,6 +5,8 @@ Changes to the SRD are found here, in descending order.
 ### Additions
 - Added the following **Effects** to *Creating_Abilities.md*.
   - Confuse
+  - Flank
+  - Repel
   - Steal
   - Stun
 - Added the necessity to **Buy Abilities** for characters created from the Create Character **Effect** in *Creating_Abilities.md*.
@@ -21,9 +23,12 @@ Changes to the SRD are found here, in descending order.
   - Randomly Targets
   - Recover **Resource**
 - Changed how the variables listed in *Creating_Abilities.md* are calculated to make them more clear (hopefully).
-- Reworked the Dispel Ability **Effect** in *Creating_Abilities.md*.
+- Reworked the *Dispel Ability* **Effect** in *Creating_Abilities.md*.
   - It no longer prevents **Ability** activation and resolution.
-- Changed the *Targets* **Ability Property** in *Creating_Abilities.md* to always affect a minimum of 1 target.
+- Changed *Targets* **Ability Property** in *Creating_Abilities.md* to always affect a minimum of 1 target.
+- Changed *Active* and *Innate Type* **Ability Properties** slightly in *Creating_Abilities.md*.
+- Changed *Duration* **Ability Property** in *Creating_Abilities.md* to allow the user of that **Ability** to determine when its once per **Round** effect goes off.
+- Changed *Change Row* **Effect** so that it works on enemy targets properly.
 
 ## October 4, 2026
 ### Additions
