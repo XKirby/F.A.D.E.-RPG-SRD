@@ -1,5 +1,33 @@
 # Changelog
-Changes to the SRD are found here, in descending order.
+Changes to the SRD are found here, with more recent changes appearing near the top.
+
+## October 6, 2026
+> [!CAUTION]
+> I ended up using ChatGPT to find whether or not there were infinite loops or triggers with Abilities, so this update fixes most of the Ability oversights found this way.
+### Additions
+- Added **Ability** First-In-Last-Out *Stack* rules to *Introduction.md*.
+- Added the following **Ability Properties** to *Creating_Abilities.md*.
+  - Fast
+- Added **Effect** First-In-First-Out resolution rules to *Introduction.md.*
+- Added mention of characters from Create Character **Effect** dissipating when its **Ability's Duration** ends.
+### Changes
+- Changed *Duration* **Ability Property** to specify when an **Ability** ends when it's **Duration** is 0.
+- Changed *Innate* **Abilities** to only activate once each turn and to stay active once initially activated for their **Duration**.
+- Changed *Frequency* **Ability Property** to apply immediately upon **Abilities** being put in the *Stack*.
+- Changed Repel **Effect** to supercede **Elemental Effectiveness**.
+- Changed Revive **Effect** to have **Ability Point Cost** 12, require **Type Active**, **Frequency** over 0, and **Duration** 0, and an **Ability** with the Revive **Effect** can't have the Fast **Effect**.
+- Changed Damage Resource **Effect** to not always use dice and its **Ability Point Cost** for extra dice from +2 to +1.
+- Changed Recover Resource **Effect** to not always use dice and it now requires **Frequency** over 0.
+- Changed the following **Effects** to **Ability Properties**.
+  - Can Target Self
+  - Has **Base Stat**
+  - Has Critical Range
+  - Had **Element Tags**
+  - Has Failure Range
+  - Has **Gear Tags**
+  - Has **Race Tags**
+- Changed Gear Conditions **Ability Property** to User **Tag** Conditions.
+- Changed Character Conditions **Ability Property** to Target **Tag** Conditions.
 
 ## October 5, 2026
 ### Additions
