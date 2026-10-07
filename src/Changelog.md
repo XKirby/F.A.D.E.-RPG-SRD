@@ -36,6 +36,8 @@ Changes to the SRD are found here, with more recent changes appearing near the t
 - Changed Activate Ability **Effect** to have only certain **Ability Properties** be allowed.
 - Changed Invert Damage When Absorbed **Effect** to Invert Damage When Resistance, increasing its possible Effectiveness Range.
 - Changed Invert Recovery When Severe **Effect** to Invert Recovery When Weakness, increasing its possible Effectiveness Range.
+- Gave quite a few **Effects** a required **Duration** value.
+- Fixed some wording issues.
 ### Removals
 - Removed Is Illusion **Effect**. You can get a similar effect with Has Failure Range instead.
 
