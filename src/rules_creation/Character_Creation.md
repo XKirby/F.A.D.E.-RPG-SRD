@@ -15,41 +15,41 @@ A character's *__Level__* is a quick determining factor for how strong a charact
 
 ### Tags
 A character can have one or more *__Tags__*. These *__Tags__* include the following list:
-- <u>**Element Tag Resistance:**</u> This character **Resists** damage dealt and recovery gained from this **Element**.
-- <u>**Element Tag Weakness:**</u> This character is **Weak** to damage dealt and recovery gained from this **Element**.
+- <u>**Element Tag Resistance:**</u> This character **Resists** Damage dealt and is **Weak** to Recovery gained from this **Element**.
+- <u>**Element Tag Weakness:**</u> This character is **Weak** to Damage dealt and **Resists** Recovery gained from this **Element**.
 - <u>**Gear Tag Adept:**</u> This character gains a +10 bonus to **d% Checks** that reference **Gear** with this *__Tag__*.
 - <u>**Gear Tag Inept:**</u> This character gains a -10 penalty to **d% Checks** that reference **Gear** with this *__Tag__*.
 - <u>**Gear Slot Tag Count:**</u> This character can equip a number of **Gear** in the listed **Gear Slot** with that **Gear Slot Tag**.
-- <u>**Race Tag:**</u> This character has ancestry with this *__Tag__*. **Race Tags** are listed further down on this page.
+- <u>**Race Tag:**</u> This character has ancestral relations to this *__Tag__*. **Race Tags** are listed further down on this page.
 
 ### Heft
 A character's *__Heft__* is a multiplier to their carrying capacity. The higher a character's *__Heft__*, the more that character can effectively lift and carry. A character can hold **Gear** with total **Weight** less than or equal to their **<a style="color:#ff4040">Physique</a>** x *__Heft__*.
 
-### Size
-A character's *__Size__* determines how large or how small that character is; A larger character has more **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** and **Heft** at the cost of **<i class="fa-solid fa-person-falling"></i>Evasion**, whereas a smaller character has more **<i class="fa-solid fa-person-falling"></i>Evasion** as the cost of their **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** and **Heft**. The following *__Sizes__* are available:
-- <u>**Tiny:**</u> A *Tiny* character has a base of 20 **<i class="fa-solid fa-person-falling"></i>Evasion**, 1 **Heft**, and one third the **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** of a *Medium* character, rounded up. *Tiny* characters are less than or equal to 1 foot tall.
-- <u>**Small:**</u> A *Small* character has a base of 10 **<i class="fa-solid fa-person-falling"></i>Evasion**, 2 **Heft**, and one half the **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** of a *Medium* character, rounded up. *Small* characters are close to about 2 to 3 feet tall.
-- <u>**Medium:**</u> A *Medium* character has a base of 0 **<i class="fa-solid fa-person-falling"></i>Evasion**, 3 **Heft**, and the normal formula for **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**. *Medium* characters range from 4 to 7 feet tall.
-- <u>**Large:**</u> A *Large* character has a base of -10 **<i class="fa-solid fa-person-falling"></i>Evasion**, 4 **Heft**, and one and a half times as much **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** as a *Medium* character, rounded up. *Large* characters range from 8 to 10 feet tall.
-- <u>**Huge:**</u> A *Huge* character has a base of -20 **<i class="fa-solid fa-person-falling"></i>Evasion**, 6 **Heft**, and two times as much **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** as a *Medium* character. *Huge* characters range from 11 to 20 feet tall.
-- <u>**Gargantuan:**</u> A *Gargantuan* character has a base of -30 **<i class="fa-solid fa-person-falling"></i>Evasion**, 9 **Heft**, and has three times as much **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** as a *Medium* character. *Gargantuan* characters range from 25 to 50 feet tall. Players can't start as *Gargantuan* characters of **Levels** lower than 10.
-- <u>**Titanic:**</u> A *Titanic* character has a base of -40 **<i class="fa-solid fa-person-falling"></i>Evasion**, 15 **Heft**, and has five times as much **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** as a *Medium* character. *Titanic* characters range from 100 to 1,000 feet tall. Players can't start as *Titanic* characters of **Levels** lower than 20.
-- <u>**Astronomic:**</u> An *Astronomic* character has a base of -50 **<i class="fa-solid fa-person-falling"></i>Evasion**, 30 **Heft**, and has ten times as much **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>** as a *Medium* character. *Astronomic* characters range from 5,000 to 10,000 feet tall. Players can't start as *Astronomic* characters.
-
 ### Defense
-As mentioned on other pages, *__<i class="fa-solid fa-shield-halved"></i>Defense__* reduces incoming damage. Characters start with 0 *__<i class="fa-solid fa-shield-halved"></i>Global Defense__*.
+As mentioned on other pages, *__<i class="fa-solid fa-shield-halved"></i>Defense__* reduces incoming damage by its value. Characters start with *__<i class="fa-solid fa-shield-halved"></i>Global Defense__* based on their **Size** and, if a character's **<i class="fa-solid fa-shield-halved"></i>Global Defense** is negative, they take increased damage from all sources instead.
+
+### Size
+A character's *__Size__* determines how large or how small that character is; A larger character has more **<i class="fa-solid fa-shield-halved"></i>Global Defense** and **Heft** at the cost of **<i class="fa-solid fa-person-falling"></i>Evasion**, whereas a smaller character has more **<i class="fa-solid fa-person-falling"></i>Evasion** as the cost of their **<i class="fa-solid fa-shield-halved"></i>Global Defense** and **Heft**. The following *__Sizes__* are available:
+- <u>**Tiny:**</u> A *Tiny* character has a base of 20 **<i class="fa-solid fa-person-falling"></i>Evasion**, 1 **Heft**, and -2 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Tiny* characters are less than or equal to 1 foot tall.
+- <u>**Small:**</u> A *Small* character has a base of 10 **<i class="fa-solid fa-person-falling"></i>Evasion**, 2 **Heft**, and -1 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Small* characters are close to about 2 to 3 feet tall.
+- <u>**Medium:**</u> A *Medium* character has a base of 0 **<i class="fa-solid fa-person-falling"></i>Evasion**, 3 **Heft**, and 0 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Medium* characters range from 4 to 7 feet tall.
+- <u>**Large:**</u> A *Large* character has a base of -10 **<i class="fa-solid fa-person-falling"></i>Evasion**, 4 **Heft**, and 1 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Large* characters range from 8 to 10 feet tall.
+- <u>**Huge:**</u> A *Huge* character has a base of -20 **<i class="fa-solid fa-person-falling"></i>Evasion**, 6 **Heft**, and 2 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Huge* characters range from 11 to 20 feet tall.
+- <u>**Gargantuan:**</u> A *Gargantuan* character has a base of -30 **<i class="fa-solid fa-person-falling"></i>Evasion**, 9 **Heft**, and 3 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Gargantuan* characters range from 25 to 50 feet tall. Players can't start as *Gargantuan* characters of **Levels** lower than 10.
+- <u>**Titanic:**</u> A *Titanic* character has a base of -40 **<i class="fa-solid fa-person-falling"></i>Evasion**, 15 **Heft**, and has 5 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Titanic* characters range from 100 to 1,000 feet tall. Players can't start as *Titanic* characters of **Levels** lower than 20.
+- <u>**Astronomic:**</u> An *Astronomic* character has a base of -50 **<i class="fa-solid fa-person-falling"></i>Evasion**, 30 **Heft**, and 10 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Astronomic* characters range from 5,000 to 10,000 feet tall. Players can't start as *Astronomic* characters of **Levels** lower than 30.
 
 ### Aptitudes
 As mentioned on other pages, *__Aptitudes__* determine how proficient and effective you are with certain **Abilities**. To reiterate from those sources, each *__Aptitude__* has a fixed range of -50 to +50, with positive *__Aptitudes__* counting as **Boosts** and negative *__Aptitudes__* counting as **Penalties**. You can only have a number of **Aptitude Boosts** and **Aptitude Penalties** equal to your **Level** x 2, and for each **Aptitude Penalty** you take you may apply that many more **Aptitude Boosts**.
 
 ### Gear
-Player characters start with up to two pieces of *Common* *__Gear__* at **Level** 0, but can start with more or better *__Gear__* at the GM's discretion.
+Player characters start with up to three pieces of **Level** 0 *__Gear__*, but can start with more or better *__Gear__* at the GM's discretion.
 
 ### Abilities
-Each character has a unique set of *__Abilities__* they have as either *Innate* passives *or* *Activated* with some form of cost. *__Abilities__* have various **Properties**. Characters start with no unique *__Abilities__* at Level 0, but may gain new *__Abilities__* either through **Gear** or through **Ability Points** earned when **Leveling Up**.
+Each character has a unique set of *__Abilities__* either as *Innate* passives or *Activated* with some form of cost. *__Abilities__* have various **Properties**. Characters start with no unique *__Abilities__* at Level 0, but may gain new *__Abilities__* either through **Gear** or through **Ability Points** earned when **Leveling Up**.
 
 ## Experience and Leveling Up
-Characters gain *__Experience__* during the game, usually from combat scenarios or at the GM's discretion. If a character has 100 or more *__Experience__*, they *__Level Up__* and lose 100 *__Experience__* until they have below 100 *__Experience__*. As a Character increases in **Level**, the following occurs:
+Characters gain *__Experience__* during the game, usually from combat scenarios or at the GM's discretion. If a character has 100 or more *__Experience__*, they *__Level Up__* by spending 100 *__Experience__* until they have below 100 *__Experience__*. As a Character increases in **Level**, the following occurs:
 - That character gains 2 **Boosts** divided as they choose among **<a style="color:#ff4040">Physique</a>**, **<a style="color:#ffff40">Ego</a>**, and/or **<a style="color:#4040ff">Instinct</a>** per **Level** gained. *(For example, they may put 10 points in <a style="color:#ff4040">Physique</a>, or they may put 5 into both <a style="color:#ff4040">Physique</a> and <a style="color:#ffff40">Ego</a>.)* Be sure to scale your **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**, **<a style="color:#ffc040"><i class="fa-solid fa-person-running"></i>Stamina</a>**, and **<a style="color:#40ff40"><i class="fa-solid fa-bolt"></i>Energy</a>** accordingly.
 - That character gains 2 **Boosts** divided as they choose among their current and/or any new **Aptitudes** per **Level** gained. That character may also gain up to 2 **Aptitude Penalties** per **Level** gained, either new or current, to gain that many more **Aptitude Boosts**.
 - That character gains 1 **Ability Point** to spend on new or current **Abilities** for each **Level** reached. Any **Ability** additions or changes may be made now. *(For example, if you Level Up from Level 2 to Level 3, you gain 3 Ability Points during that Level Up.)*
@@ -65,32 +65,32 @@ Additionally, the *__Experience__* gained during the game scales down a number o
 > As characters start at **Level** 0 normally, if your GM has you start at **Level** 1 or higher, act as though you started at **Level** 0 and gained enough **Experience** to **Level Up** that many times.
 
 > [!TIP]
-> **Experience**, while recommended as the source in which you **Level Up**, may not work for your campaign. If that is the case, you may opt for the **Milestone** system instead; If a player does something noteworthy, you can grant them the ability to immediately **Level Up**. Be wary when using this system, as you don't want to have a huge **Level** disparity amongst your party's players.
+> **Experience**, while recommended as the source in which you **Level Up**, may not work for your campaign. If that is the case, you may opt for the **Milestone** system instead; If a player does something noteworthy, you can grant them the ability to immediately **Level Up**. Be wary when using this system, as you don't want to have a huge **Level** disparity amongst your players.
 
 ## Race Tags
 As mentioned above, a character's *__Race Tags__* determine their ancestry. Some **Abilities** may only be used by or can only target certain *__Race Tags__*. The following *__Race Tag__* list is what this SRD utilizes in all of its content, but feel to make your own:
-- Alien
-- Angel
+- Angelic
 - Animal
 - Avatar
 - Abberation
 - Arachnid
 - Beast
-- Bird
+- Avian
 - Celestial
 - Construct
 - Deity
-- Demon
-- Dragon
+- Demonic
+- Draconic
 - Entity
 - Fey
 - Horror
 - Humanoid
-- Insect
+- Insectoid
+- Mechanical
 - Otherworldly
 - Reptile
 - Seacreature
 - Serpent
 - Spirit
-- Vampire
-- Wereanimal
+- Vampiric
+- Werecreature

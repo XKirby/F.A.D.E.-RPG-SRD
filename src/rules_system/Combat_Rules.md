@@ -2,18 +2,18 @@
 This page lists the basic *__Combat Rules__* utilized by this system.
 
 ## Row System
-Unlike other more noteworthy TTRPGs, this system uses a derivative of range bands, better known as the *__Row System__*. The *__Row System__* grants all combat parties a set of two **Rows**; One in the **Front**, one in the **Back**. Each character can normally only reach up to one **Row** away both forward and backward unless otherwise stated.
+Unlike other more noteworthy TTRPGs, this system uses a derivative of range bands, better known as the *__Row System__*. The *__Row System__* grants all combat parties a set of two **Rows**; One in the **Front**, one in the **Back**. Each character can normally only reach up to one **Row** away in the enemy's formation unless otherwise stated or all targets within that formation are in a single **Row**.
 
-The *__Row System__* at its core is designed to allow for simpler combat structure while maintaining some minor positional complexity; Groups of characters can directly **Attack** another *or* they can **Surround** or **Ambush** unsuspecting victims to gain an advantage. Regardless of how the main group engages, the defending group always gets to choose which **Row** they start in first.
+The *__Row System__* at its core is designed to allow for simpler combat structure while maintaining some minor positional complexity; **Groups** of characters can directly **Attack** another *or* they can **Surround** or **Ambush** unsuspecting victims to gain an advantage. Regardless of how the main group engages, the defending group always gets to choose which **Row** they start in first.
 - When **Attacking** a specific group of characters, the enemy group appears from the front, attacking their **Front Row**.
 - When **Surrounding** a specific group of characters, they are placed in the middle of two enemy groups on both sides of their formation.
 - When **Ambushing** a specific group of characters, the enemy group appears from behind, attacking their **Back Row**.
 
 > [!TIP]
-> A GM chooses when to reveal whether or not their group of characters is **Attacking**, **Surrounding**, or **Ambushing** before combat initiates. Once combat is finished initiating, you must reveal where characters are in relation to the players.
+> A GM chooses when to reveal whether or not their **Groups** of characters are **Attacking**, **Surrounding**, or **Ambushing** before **Initiating Combat**. Once combat is finished initiating, you must reveal where characters are in relation to the players.
 
 ## Initiating Combat
-Before *__Initiating Combat__*, each party entering **Combat** must determine their starting **Rows** using one of the above methods. Once all participants have chosen where to start, the attackers mention how they're engaging their enemies, then each combat participant rolls a **d% Check** of **<a style="color:#ffff40">Ego</a>** + **Aptitude** + **d%**. The results of these rolls, called *__Initiative__*, determines the **Round Order**, with the highest values acting before lower values. If there's a tie, those characters perform additional **d% Checks** until there aren't any, repositioning themselves before or after other characters they were rolling off with.
+Before *__Initiating Combat__*, each party entering **Combat** must determine their starting **Rows** using one of the above methods. Once all participants have chosen where to start, the attackers mention how they're engaging their enemies, then each combatant uses their **<a style="color:#ffff40">Ego</a>** + **Aptitude** as a value called *__Initiative__*, which determines the **Round Order**, with higher values acting before lower values. If there's a tie, those characters perform **Contested d% Checks** until there aren't any, repositioning themselves before or after other characters they were rolling off with.
 
 ## Turns and Rounds
 *__Turns and Rounds__* are ways to keep track of time passing throughout dangerous situations. A *__Round__* is comprised of all characters' *__Turns__* and lasts a total of 6 seconds. A single character's *__Turn__* is comprised of what they can do within their alloted time within a *__Round__*.
@@ -29,37 +29,57 @@ Each character has the following *__Basic Abilities__* at their disposal at any 
 | *__Ability Name__* | *__Properties__* | *__Effects__* |
 | :-: | :-: | --- |
 | Attack | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | Roll a **Contested d% Check** against each target of **<a style="color:#ff4040">Physique</a>** + **Aptitude** + **d%**.<br />*__Success:__* This **Ability** deals 1d2 Bludgeoning damage to each of its targets' **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**.<br />*__Failure:__* This **Ability** deals 1 Bludgeoning damage to each of its targets' **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**. |
-| Defend | *Active*;<br />**Cost:** 2<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | This **Ability** grants its user **<i class="fa-solid fa-shield-halved"></i>Global Defense** equal to their current **Level** + 1 until the start of their next **Turn**. The user's current **Turn** ends. |
-| Escape | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** All Enemies; | Roll a **Contested d% Check** against each target of **<a style="color:#4040ff">Instinct</a>** + **<i class="fa-solid fa-person-falling"></i>Evasion** + **d%**. Count each **Success** as +1 and each **Failure** as +0 for the result.<br />If the result is greater than or equal to half the available enemies contested against, this **Ability** causes its user to disengage from combat by running away. |
-| Pass | *Active*;<br />**Cost:** 2<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | This **Ability** grants its target 1 Temporary **<i class="fa-solid fa-gem"></i>Action Point**. The user's current **Turn** ends. |
-| Reposition | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1 | This **Ability** swaps the user's **Row** from **Front** to **Back** and vice versa. |
+| Defend | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** Self; | This **Ability** grants its user **<i class="fa-solid fa-shield-halved"></i>Global Defense** equal to their current **Level** + 1 until the start of their next **Turn**. The user's current **Turn** ends. |
+| Escape | *Active*;<br />**Cost:** 2<i class="fa-solid fa-gem"></i>;<br />**Targets:** All Enemies; | Roll a **Contested d% Check** against each target of **<a style="color:#4040ff">Instinct</a>** + **<i class="fa-solid fa-person-falling"></i>Evasion** + **d%**. Count each **Success** as +1 and each **Failure** as +0 for the result.<br />If the result is greater than or equal to half the available enemies contested against, this **Ability** causes its user to disengage from combat by running away. |
+| Pass | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1 Ally; | This **Ability** grants its target 1 Temporary **<i class="fa-solid fa-gem"></i>Action Point**. Once this **Ability** resolves, the user's **Initiative** is changed to its target's **Initiative** - 1, to a minimum of 1, and their current **Turn** ends. |
+| Reposition | *Active*;<br />**Cost:** 1<i class="fa-solid fa-gem"></i>;<br />**Targets:** Self; | This **Ability** swaps the user's **Row** from **Front** to **Back** and vice versa. |
 | Wait | *Active*;<br />**Cost:** 0<i class="fa-solid fa-gem"></i>;<br />**Targets:** 1; | This **Ability** grants its user a lower **Initiative** of their choice, to a minimum of 1. Once this **Ability** resolves, the user must wait for their **Turn** again. |
+| Accelerate | *Active*;<br />**Cost:** <a style="color:#ffc040">10<i class="fa-solid fa-person-running"></i></a>;<br />**Duration:** 1;<br />**Targets:** Self; | This **Ability** grants its user +5 **Initiative** for its **Duration**. |
 
 ## Ending Combat
-When all enemies of a specific group of characters either dies or fully disengages, those groups *__End Combat__* with one another. All characters, including those that are dead, gain **Experience** equal to the total enemy **Levels** multiplied by a bonus based on the following tables:
+When all enemies of a specific group of characters either die or fully disengage, all involved groups *__End Combat__* with one another. All characters, including those that are dead, gain **Experience** equal to the total enemy **Levels** multiplied by a bonus based on the following tables.
 
 | *__Combat Difficulty__* | *__Level Difference__* | *__Experience Multiplier__* |
 | :-: | :-: | :-: |
-| Trivial | -8 to -7 | 25% |
+| Trivial | -7 or lower | 25% |
 | Beginner | -6 to -5 | 50% |
-| Easy | -4 to -3 | 75% |
-| Moderate | -2 to +0 | 100% |
-| Hard | +1 to +2 | 150% |
-| Very Hard | +3 to +4 | 200% |
-| Super Hard | +5 to +6 | 250% |
-| Extreme | +7 to +8 | 300% |
+| Easy | -4 to -2 | 75% |
+| Moderate | -1 to +1 | 100% |
+| Hard | +2 to +4 | 150% |
+| Very Hard | +5 | 200% |
+| Super Hard | +6 | 250% |
+| Extreme | +7 or higher | 300% |
 
-To further explain the above table, the **Level Difference** uses the total **Levels** of each character in a group compared to that group's enemies to determine the **Combat Difficulty**. For example, if four characters in one group are **Level** 4 and they're fighting 3 **Level** 5 enemies from another group, that Combat Encounter is considered a *Moderate* combat encounter and grants 100% of its **Experience** to the first group. *(4 + 4 + 4 + 4 = 16, 5 + 5 + 5 = 15, 15 - 16 = -1.)* For the second group, however, this is considered a *Hard* combat encounter instead, granting that group 150% of its total **Experience**. *(5 + 5 + 5 = 15, 4 + 4 + 4 + 4 = 16, 16 - 15 = 1.)*
+To further explain the above table, the **Level Difference** uses the total **Levels** of each character in a group compared to that group's enemies to determine the **Combat Difficulty**. For example, if four characters in one group are **Level** 4 and they're fighting 3 **Level** 5 enemies from another group, that Combat Encounter is considered a *Moderate* combat encounter and grants 100% of its **Experience** to the first group. *(4 + 4 + 4 + 4 = 16, 5 + 5 + 5 = 15, 15 - 16 = -1.)* For the second group, this is also considered a *Moderate* combat encounter. *(5 + 5 + 5 = 15, 4 + 4 + 4 + 4 = 16, 16 - 15 = 1.)*
 
 | *__Character Rank__* | *__Base Stat Multiplier__* | *__Experience Multiplier__* |
 | :-: | :-: | :-: |
 | Minion | 100% | 100% |
-| Elite| 150% | 200% |
+| Elite | 150% | 200% |
 | Boss | 200% | 400% |
 | Legend | 300% | 800% |
 
-To further explain this other table, the GM can create characters with a **Character Rank**. For example, if a character has the **Character Rank** of *Boss* at **Level** 5, its **Base Stats** are multiplied by 200% and the **Experience Multiplier** is then itself multiplied by 400% for the party that defeats them. When that *Boss* would then be defeated, its **Level** is also multiplied by the **Base Stat Multiplier** value for the **Combat Difficulty**. *(5 x 200% = 10.)* Using this new value, against four **Level** 3 player characters, it would be a *Moderate* combat encounter, granting 400% of its total **Experience**. *(3 + 3 + 3 + 3 = 12, 12 - 10 = -2. 100% x 400% = 400%.)*
+To further explain this other table, the GM can create characters with a **Character Rank**. For example, if a character has the **Character Rank** of *Boss* at **Level** 5, its **Base Stats** are multiplied by 200% and the **Experience Multiplier** is then itself multiplied by 400% for the party that defeats them. When that *Boss* would then be defeated, its **Level** is also multiplied by the **Base Stat Multiplier** value for the **Combat Difficulty**. *(5 x 200% = 10.)* Using this new value, against four **Level** 3 player characters, it would be an *Easy* combat encounter, granting 300% of its total **Experience**. *(3 + 3 + 3 + 3 = 12, 12 - 10 = -2. 75% x 400% = 300%.)*
 
 **Experience** gained this way is gained all at once; As mentioned in *Character Creation*, **Experience** gained is reduced by your current **Level**, to a minimum of 1. Additionally, **Experience** is given to each member of the group equally without splitting it.
 
 Finally, any **Gear** dropped on the battlefield by defeated targets may be picked up by any survivors.
+
+## Elemental Effectiveness
+Whenever you activate or trigger an **Ability**, that **Ability's** *__Elemental Effectiveness__* takes into consideration all **Element Tags** related to it. An **Ability** can be **Absorbed**, **Resisted**, **Effective**, **Powerful**, or **Severe**. Characters and objects may have one or more **Resistances** or **Weaknesses** related to specific **Element Tags**.
+
+The following order of operations is used to determine the final result of an **Ability's** *__Elemental Effectiveness__* when performing Damage or Recovery:
+1. If the **Ability's** targets fully **Resist** all **Element Tags** from it, this **Effect** is **Absorbed**. Otherwise, continue.
+2. If the **Ability's** targets **Resist** some, *but not all*, **Element Tags** from it and aren't **Weak** to any of its **Element Tags**, this **Effect** is **Resisted**. Otherwise, continue.
+3. If the **Ability's** targets **Resist** none of its **Element Tags** and aren't **Weak** to any of its **Element Tags**, this **Effect** is **Effective**. Otherwise, continue.
+4. If the **Ability's** targets are **Weak** to some, *but not all*, **Element Tags** from it, even if they would **Resist** some of them, this **Effect** is **Powerful**. Otherwise, continue.
+5. If the **Ability's** targets are **Weak** to all **Element Tags** from it, this **Effect** is **Severe**.
+
+The following table dictates how much damage and recovery you take from each category of *__Elemental Effectiveness__*:
+| *__Elemental Effectiveness Level__* | *__Damage Multiplier__* | *__Recovery Multiplier__* |
+| :-: | :-: | :-: |
+| **Absorbed** | 0% | 50% |
+| **Resisted** | 50% | 75% |
+| **Effective** | 100% | 100% |
+| **Powerful** | 200% | 150% |
+| **Severe** | 400% | 200% |

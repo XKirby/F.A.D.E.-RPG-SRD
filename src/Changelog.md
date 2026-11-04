@@ -1,6 +1,51 @@
 # Changelog
 Changes to the SRD are found here, with more recent changes appearing near the top.
 
+## November 4, 2026
+### Additions
+- Added the following **Race Tags** in *Character_Creation.md*.
+  - Mechanical
+- Added the following **Basic Abilities** in *Combat_Rules.md*.
+  - Accelerate
+- Added a Damage and Recovery Multiplier table to **Elemental Effectiveness** in *Creating_Abilities.md*.
+- Added natural Recovery to Resources over time with a listed table in *Core_Rules.md*.
+### Changes
+- Changed **Size** to no longer scales **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**, instead now scaling **<i class="fa-solid fa-shield-halved"></i>Global Defense** in *Character_Creation.md*. Other rules adjusted to compensate for the change.
+- Changed **Race Tags** in *Character_Creation.md*.
+  - Angel -> Angelic
+  - Bird -> Avian
+  - Demon -> Demonic
+  - Dragon -> Draconic
+  - Insect -> Insectoid
+  - Vampire -> Vampiric
+  - Wereanimal -> Werecreature
+- Changed **Combat Difficulty** scaling in *Combat_Rules.md*.
+- Changed how **Initiative** is calculated to no longer use **d% checks** until necessary to break ties in *Combat_Rules.md*.
+- Updated **Ending Combat** Experience gain examples in *Combat_Rules.md*.
+- Changed the following **Basic Abilities** in *Combat_Rules.md*.
+  - Defend
+  - Escape
+  - Pass
+- Changed the following **Ability Properties** in *Creating_Abilities.md*.
+  - Has Reach
+- Changed **Elemental Effectiveness** scaling towards Recovery **Effects** and moved the entire section to *Combat_Rules.md*.
+- Changed Targets **Ability Property** to be more clearly worded in *Creating_Abilities.md*.
+- Changed Resource Condition **Ability Property** to prevent working when at 0 or less in a **Resource** in *Creating_Abilities.md*.
+- Changed how **Element Tag Resistance** and **Element Tag Weakness** work with Recovery **Effects** in *Character_Creation.md*.
+- Changed the following **Element Tags** in *Creating_Abilities.md*.
+  - Spirit -> Spiritual
+- Changed the amount of **Gear** that player characters start with in *Character_Creation.md*.
+- Changed the following **Effects** in *Creating_Abilities.md*.
+  - Activate Ability -> Add Sub Ability
+- Changed *__<a style="color:#ffc040"><i class="fa-solid fa-person-running"></i>Stamina</a>__* and *__<a style="color:#40ff40"><i class="fa-solid fa-bolt"></i>Energy</a>__* detriments when below 1 in *Core_Rules.md*.
+### Removals
+- Removed the following **Race Tag** in *Character_Creation.md*.
+  - Alien
+- Removed the following **Effects** in *Creating_Abilities.md*.
+  - Invert Damage when Resistance
+  - Invert Recovery when Weakness
+- Removed duplicate information found in *Creative_Abilities.md*.
+
 ## October 6, 2026
 > [!CAUTION]
 > I ended up using ChatGPT to find whether or not there were infinite loops or triggers with Abilities, so this update fixes most of the Ability oversights found this way.
@@ -11,21 +56,21 @@ Changes to the SRD are found here, with more recent changes appearing near the t
   - Restrict **Tags**
 - Added the following **Ability Properties** to *Creating_Abilities.md*.
   - Fast
-- Added **Effect** First-In-First-Out **Ability** resolution rules to *Introduction.md.*
-- Added mention of characters from Create Character **Effect** dissipating when its **Ability's Duration** ends.
+- Added **Effect** First-In-First-Out **Ability** resolution rules to *Introduction.md*.
+- Added mention of characters from Create Character **Effect** dissipating when its **Ability's** **Duration** ends.
 ### Changes
 - Changed *Duration* **Ability Property** to specify when an **Ability** ends when it's **Duration** is 0.
 - Changed *Innate* **Abilities** to only activate once each turn and to stay active once initially activated for their **Duration**.
 - Changed *Frequency* **Ability Property** to apply immediately upon **Abilities** being put in the *Stack*.
 - Changed Repel **Effect** to supercede **Elemental Effectiveness**.
-- Changed Revive **Effect** to have **Ability Point Cost** 12, require **Type Active**, **Frequency** over 0, and **Duration** 0, and an **Ability** with the Revive **Effect** can't have the Fast **Effect**.
+- Changed Revive **Effect** to have **Ability Point Cost** 12, require **Type Active**, **Frequency** over 0, and **Duration** 0, and an **Ability** with the Revive **Effect** can't have the Fast **Ability Property**.
 - Changed Damage Resource **Effect** to not always use dice and its **Ability Point Cost** for extra dice from +2 to +1.
 - Changed Recover Resource **Effect** to not always use dice and it now requires **Frequency** over 0.
 - Changed the following **Effects** to **Ability Properties**.
   - Can Target Self
   - Has **Base Stat**
   - Has Critical Range
-  - Had **Element Tags**
+  - Has **Element Tags**
   - Has Failure Range
   - Has **Gear Tags**
   - Has **Race Tags**
