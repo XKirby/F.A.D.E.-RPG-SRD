@@ -1,6 +1,22 @@
 # Changelog
 Changes to the SRD are found here, with more recent changes appearing near the top.
 
+## November 6, 2026
+### Changes
+- A bunch of typo fixes in *Creating_Abilities.md*.
+- Changed the following **Ability Properties** in *Creating_Abilities.md*.
+  - Innate Type
+  - Aptitude Prerequisite
+  - Base Stats Prerequsite
+  - Resource Alternative Cost
+  - Gear Alternative Cost
+  - Resource Condition Requirement
+  - Has Base Stat Property
+  - Has Reach Property
+- Changed the following **Effects** in *Creating_Abilities.md*.
+  - Repel
+  - Steal
+
 ## November 4, 2026
 ### Additions
 - Added the following **Race Tags** in *Character_Creation.md*.
@@ -192,7 +208,7 @@ Changes to the SRD are found here, with more recent changes appearing near the t
 - Changed how big **Titanic** and **Astronomic** characters are.
 - Renamed the *Run Away* **Basic Ability** to *Escape* in *Combat_Rules.md*.
 ### Removals
-- Removed the following **Element Tags** from *Creating_Abilties.md*.
+- Removed the following **Element Tags** from *Creating_Abilities.md*.
   - Water
   - Poison
   - Void

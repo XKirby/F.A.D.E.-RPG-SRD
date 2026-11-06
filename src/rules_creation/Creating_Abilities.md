@@ -2,7 +2,7 @@
 This page lists a large set of information related to *__Creating Abilities__*. When *__Creating Abilities__*, you'll want to conceptualize how the **Ability** will actively function. Once you have the **Ability** you want in mind, this page may help you to figure out how to piece it together.
 
 > [!Warning]
-> **Creating Abilities** is a time-consuming process; You'll be building **Abilities** *piece by piece* to get the desired effect. I recommend starting small and simple, building things up slowly over time as you **Level Up**. Once you get the hang of it, feel free to make your **Abilities** more complex and interesting.
+> **Creating Abilities** is a time-consuming process; You'll be building **Abilities** *piece by piece* to get the desired result. I recommend starting small and simple, building things up slowly over time as you **Level Up**. Once you get the hang of it, feel free to make your **Abilities** more complex and interesting.
 
 ## Ability Properties
 As mentioned under the **Core Rules** page, **Abilities** have various *__Ability Properties__* that define basic information about how to utilize them. *__Ability Properties__* explain potential restrictions and interactions the **Ability** they're associated with has. They are listed and explained in the **Buying Abilities** section listed below.
@@ -17,31 +17,31 @@ If a new **Ability** would be created, you must give it a unique name.
 | *__Type Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
 | Active | 0 | This **Ability** must be activated manually before taking effect and can only be activated if its **Ability Properties** are satisfied. Requires at least one **Alternative Cost** over 0 on this **Ability**. |
-| Innate | +1 | This **Ability** may initially activate only once each **Turn**. This **Ability** activates if its **Ability Properties** are satisfied and remains active for its **Duration**. Requires at least one **Requirement** on this **Ability**. |
+| Innate | +1 | This **Ability** may initially activate only once each **Turn**. This **Ability** activates if its **Ability Properties** are satisfied and remains active for its **Duration**. Requires at least one **Requirement** on this **Ability** and it must cost 0 **Action Points**. |
 
 <br />
 
 | *__Prerequisite Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
-| Level | -1 per X | This **Ability** can only be learned at **Level** **\[X\]** or higher. **\[X\]** *(\[X\] begins at 0, Minimum of 0, Maximum of Current Level.)* |
-| Aptitude | -1 per X, -1 per Y over 1 | This **Ability** can only be learned with **\[Y\]** matching **Aptitudes** at **\[5X\]** or higher. *(Each Aptitude may have a different \[X\]. \[X\] begins at 0, Minimum of +0, Maximum of +10. \[Y\] begins at 1, Minimum 1.)* |
-| Natural **Base Stats** | -1 per X, -1 per Y over 1 | This **Ability** can only be learned with **\[Y\]** matching **Base Stats** naturally at **\[5X\]** or higher. *(Each Natural Base Stat may have a different \[X\]. \[X\] begins at 0, Minimum 0. \[Y\] begins at 1, Minimum 1, Maximum 3)* |
+| Level | -1 per X | This **Ability** can only be learned at **Level** **\[X\]** or higher. *(\[X\] begins at 0, Minimum of 0, Maximum of Current Level.)* |
+| Aptitude | -1 per X | This **Ability** can only be learned with the listed matching **Aptitude** at **\[5X\]** or higher. This **Property** can be taken multiple times, choosing a new **Aptitude** each time. *(\[X\] begins at 0, Minimum of +0, Maximum of +10. \[Y\] begins at 1, Minimum 1.)* |
+| Base Stats | -1 per X | This **Ability** can only be learned with **\[Y\]** matching **Base Stats** naturally at **\[5X\]** or higher. This **Property** can be taken multiple times, choose a new **Base Stat** each time. *(\[X\] begins at 0, Minimum 0. \[Y\] begins at 1, Minimum 1, Maximum 3)* |
 
 <br />
 
 | *__Alternative Cost Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
 | <i class="fa-solid fa-gem"></i>Action Points | -2 per X over 1, +4 if X is 0 | This **Ability** costs **\[X\]** **<i class="fa-solid fa-gem"></i>Action Points** to utilize it. **Abilities** that cost 0 **Action Points** must either have another *__Alternative Cost__* or a **Frequency** above 0. *(\[X\] begins at 1, Minimum of 0, Maximum of 3.)* |
-| Resources | -0.2 per X, -1 per Y over 1 | This **Ability** costs **\[X\]** from **\[Y\]** matching **Resources**. *(Each Resource Alternative Cost may have a different \[X\]. X begins at 1, Minimum 1. Y begins at 0, Minimum 0.)* |
-| Gear | -1 per X, -1 per Y over 1 | This **Ability** costs **\[X\]** pieces of **Gear** with **\[Y\]** matching **Gear Tags**. **Gear** consumed this way is not consumed until this **Ability** resolves. Requires at least one **Gear Tag** on this **Ability**. *(Each Gear Alternative Cost may have a different \[X\]. \[X\] begins at 0, Minimum 0. \[Y\] begins at 1, Minimum 1.)* |
+| Resources | -0.2 per X | This **Ability** costs **\[X\]** from the listed matching **Resource**. This **Property** can be taken multiple times, choosing a new **Resource** each time. *(X begins at 1, Minimum 1. Y begins at 0, Minimum 0.)* |
+| Gear | -1 per X, -1 per Y over 1 | This **Ability** costs **\[X\]** pieces of **Gear** with the listed matching **\[Y\] Gear Tags**. **Gear** consumed this way is not consumed until this **Ability** resolves. Requires at least one **Gear Tag** on this **Ability**. This **Property** can be taken multiple times, choosing a new amount for both **\[X\]** and **\[Y\]** each time. *(\[X\] begins at 0, Minimum 0. \[Y\] begins at 1, Minimum 1.)* |
 
 <br />
 
-| *__Requirement Condition Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
+| *__Requirement Values__* | *__Ability Point Costs__* | *__Effect Explanation__* |
 | :-: | :-: | --- |
-| **Resource** Conditions | -0.2 per X, -1 per Y over 1 | This **Ability** can only be utilized if **\[Y\]** matching **Resources** are less than or equal to **\[10X\]%** of their maximum values. This **Ability Property** prevents the use of this **Ability** on any relevant **Resources** under or equal to 0. *(Each Resource Condition may have a different \[X\]. Each \[X\] may be mirrored instead to check whether those Resources are less than or equal to the flip of that value. For example, less than or equal to 20% mirrored becomes greater than or equal to 80%. \[X\] begins at 0, Minimum 0, Maximum 10. \[Y\] begins at 1, Minimum 1, Maximum 3.)* |
-| User **Tag** Conditions | -1 per X over 1 | This **Ability** can only be activated with **Gear** or by characters that have up to **\[X\]** matching **Tags**. Requires at least one **Tag** on this **Ability**. *(\[X\] begins at 0, Minimum 0.)* |
-| Target **Tag** Conditions | -1 per X | This **Ability** can only target characters that have at least **\[X\]** matching **Race Tags**. Requires at least one **Race Tag** on this **Ability**. *(\[X\] begins at 0, Minimum 0.)* |
+| **Resource** Conditions | -1 per X | This **Ability** can only be utilized if the listed matching **Resource** is less than or equal to **\[10X\]%** of their maximum values. This **Property** prevents the use of this **Ability** on any relevant **Resources** under or equal to 0. This **Property** can be taken multiple times, choosing a new **Resource** each time. *(\[X\] may be mirrored instead to check whether that Resource is greater than or equal to the flip of that value. For example, less than or equal to 20% mirrored becomes greater than or equal to 80%. \[X\] begins at 0, Minimum 0, Maximum 10.)* |
+| User **Tag** Conditions | -1 per X | This **Ability** can only be activated with **Gear** or by characters that have and of the **\[X\]** listed matching **Tags**. Requires at least one **Tag** on this **Ability**. *(\[X\] begins at 0, Minimum 0.)* |
+| Target **Tag** Conditions | -2 per X | This **Ability** can only target characters that have at least **\[X\]** listed matching **Race Tags**. Requires at least one **Race Tag** on this **Ability**. *(\[X\] begins at 0, Minimum 0.)* |
 
 <br />
 
@@ -49,17 +49,17 @@ If a new **Ability** would be created, you must give it a unique name.
 | :-: | :-: | --- |
 | Fast | +6 | This **Ability's** **Frequency** and **Duration** use **Turns** instead of **Rounds** as it enters the *Stack*. Requires **Frequency** over 0 and/or **Duration** over 0 on this **Ability**. |
 | Frequency | -1 per X | This **Ability** can only be activated once every **\[X\]** rounds. **Frequency** immediately applies once this **Ability** enters the *Stack*. *(\[X\] begins at 0, Minimum 0, Maximum 10.)* |
-| Duration | +1 per X | This **Ability** lingers for **\[X\]** rounds, with its **Effects** processing once per **Round**. A **Duration** of 0 causes its **Effects** to stop processing once it resolves. *(\[X\] begins at 0, Minimum 0, Maximum 20.)* |
+| Duration | +1 per X | This **Ability** lingers for **\[X\] Rounds**, with its **Effects** processing once per **Round**. A **Duration** of 0 causes its **Effects** to stop processing once it resolves. *(\[X\] begins at 0, Minimum 0, Maximum 20.)* |
 | Targets | +1 per X over 1, +4 if X is Ally Row/Enemy Row. | This **Ability** affects up to **\[X\]** targets *or* up to all targets in group of **\[X\]**. At least 1 target must be affected by this **Ability**. *(\[X\] begins at 1, Minimum 1. \[X\] can be Ally Row or Enemy Row instead of a number.)* |
 | Can Target Self | 0 | This **Ability** may target its user. |
-| Has **Base Stat** | +2 per X over 1 | This **Ability** can only utilize the user’s **\[X\]** listed **Base Stats** when referencing any of them. *(\[X\] begins at 1, Minimum 1, Maximum 3.)* |
-| Has Critical Range | -2 | This **Ability** can **Critical Success** and **Critical Failure**. Each range may have one or more **Effects**. Requires *Has Failure Range* on this **Ability**. **Critical Failure** must affect the user negatively in some fashion at the GM's discretion. |
+| Has **Base Stat** | +2 per X over 1 | This **Ability** can only utilize the **\[X\]** listed **Base Stats** when referencing any of them. Requires **Has Failure Range** on this **Ability**. *(\[X\] begins at 1, Minimum 1, Maximum 3.)* |
+| Has Critical Range | -2 | This **Ability** can **Critical Success** and **Critical Failure**. Each range may have one or more **Effects**. Requires **Has Failure Range** on this **Ability**. **Critical Failure** must affect the user negatively in some fashion at the GM's discretion. |
 | Has **Element Tags** | +1 per X over 1 | This **Ability** has **\[X\]** listed **Element Tags** that may determine its effectiveness when it resolves. *(\[X\] begins at 0, Minimum 0.)* |
 | Has Failure Range | -1 | This **Ability** has a **Contested d% Check** and can **Succeed** or **Fail**. Each range may have one or more **Effects**. **Failure** must affect the user negatively in some fashion at the GM's discretion. |
 | Has **Gear Tags** | +1 per X over 1 | This **Ability** has **\[X\]** listed **Gear Tags** that may determine its effectiveness when it resolves. *(\[X\] begins at 0, Minimum 0.)* |
 | Has **Race Tags** | +1 per X over 1 | This **Ability** has **\[X\]** listed **Race Tags** that may determine its effectiveness when it resolves. *(\[X\] begins at 0, Minimum 0.)* |
 | Has Random Range | -2 per X | This **Ability** has **\[X\]** extra ranges that are applied at random to it that may determine its effectiveness when it resolves. Each range may have one or more **Effects**. *(If \[X\] is above 0, roll 1d(\[X\]+1) to determine which range to use. \[X\] begins at 0, Minimum 0.)* |
-| Has Reach | +4 if multiple **Rows** or multiple **Groups**, otherwise +8 | This **Ability** can reach targets in both **Rows** of a single **Group**, targets in multiple **Groups** of a single **Row**, or both **Rows** in multiple **Groups**. Requires **Targets** of Ally Row or Enemy Row on this **Ability**. |
+| Has Reach | +4 if multiple **Rows** or multiple **Groups**, +8 if both, 0 if neither | This **Ability** can reach targets in both **Rows** of a single **Group**, targets in multiple **Groups** of a single **Row**, or both **Rows** in multiple **Groups**. Requires **Targets** of Ally Row or Enemy Row on this **Ability**. |
 
 ## Effects
 The *__Effects__* of each **Ability** can get really complex, enough so that this guide can't cover every instance. Both to stay with the active theme of *Simplicity First* and to ease you into the creative process a bit more, the following list of *__Effects__* will be basic building blocks that you can utilize in further ways:
@@ -94,12 +94,12 @@ The *__Effects__* of each **Ability** can get really complex, enough so that thi
 | Provoke | +2 | This **Ability** forces its targets' **Abilities** to target this **Ability's** user if applicable. If any targets of this **Ability** are already under another *Provoke* **Effect**, replace the old instance with this one. Requires **Duration** over 0 on this **Ability**. |
 | Randomly Targets | -2 | This **Ability** randomly selects its' targets within reach if applicable. |
 | Recover **Resource** | +1 per X, +1 per Y, +1 per Z | This **Ability** recovers each of its targets specific **Resource(s)** by **\[X\]d\[2Y\]+\[Z\]** when it resolves. Requires at least one **Element Tag** on this **Ability**. This **Effect** can be taken multiple times, each time choosing a different **Element Tag** and potentially choosing a different **Resource** to affect. Requires **Frequency** over 0 on this **Ability**. *(\[X\] begins at 0, Minimum 0. \[Y\] begins at 0, Maximum 6. \[Z\] begins at 0, Minimum 0.)* |
-| Repel | +6 | This **Ability** grants its targets a barrier that reflects Damage and Recovery of the associated **Element Tags** back to its caster. Damage and Recovery reflected this way can only be reflected once. This **Effect** supercedes **Elemental Effectiveness**. Requires at least one **Element Tag** and **Duration** over 0 on this **Ability**. |
+| Repel | +6 | This **Ability** grants its targets a barrier that reflects Damage and Recovery of the associated **Element Tags** back to its caster. Damage and Recovery reflected this way can only be reflected once. This **Effect** happens before **Elemental Effectiveness**. Requires at least one **Element Tag** and **Duration** over 0 on this **Ability**. |
 | Restrict **Effects** | +2 per X | This **Ability** restricts its targets, preventing the listed **\[X\] Effects** from resolving. **Abilities** with any of the listed **Effects** still resolve, skipping the listed **Effects** outright. Requires **Duration** over 0 on this **Ability**. **Abilities** with this **Effect** can't prevent the *Add Sub Ability*, *Damage Resource*, or *Recover Resource* **Effects**. *(\[X\] begins at 0, Minimum 0.)* |
 | Restrict **Tags** | +2 | This **Ability** restricts its targets, preventing them from activating **Abilities** that have at least one of the listed **Tags** unless those targets have at least one of the listed **Tags**. Requires at least one **Tag** and **Duration** over 0 on this **Ability**. *(\[X\] begins at 0, Minimum 0.)* |
 | Revive | +12 | This **Ability** revives unconscious, dying, or dead targets when it resolves, setting their *__<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>__* to 1 and they stablize, no longer unconscious, dying, or dead. Requires **Type Active**, **Frequency** over 0, and **Duration** 0 on this **Ability**. **Abilities** that have this **Effect** can't have **Fast**. |
 | Skip Next Turn | +10 | This **Ability** forcibly skips its targets' next **Turns**. Requires **Has Failure Range** and **Duration** over 0 on this **Ability**. |
-| Steal | +6 | This **Ability** takes its targets, putting them under your control. Characters targeted and affected by this **Ability** that **Fail** the **Contested d% Check** are considered Allies to the user for its **Duration**, entering the same **Row** as the user. Upon its **Duration** finishing, characters by this **Ability** return to their original allied group of characters in the closest **Row** available. Requires **Has Failure Range** and, if *Affects Gear* is on this **Ability**, **Duration** 0 on this **Ability**. |
+| Steal | +6 | This **Ability** takes its targets, putting them under your control. Characters targeted and affected by this **Ability** that **Fail** the **Contested d% Check** are considered Allies to the user for its **Duration**, entering the same **Row** as the user. Upon its **Duration** finishing, characters affected by this **Ability** return to their original allied group of characters in the closest **Row** available. **Gear** affected by this **Ability** held by characters that **Fail** the **Contested d% Check** is granted directly to the user of this **Ability**. Requires **Has Failure Range** and, if *Affects Gear* is on this **Ability**, **Duration** 0 on this **Ability**. |
 | Stun | +4 | This **Ability** stuns its targets', only allowing them to use a single **Ability** during their **Turns**. Requires **Has Failure Range** and **Duration** over 0 on this **Ability**. |
 
 > [!NOTE]
