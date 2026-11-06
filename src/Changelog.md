@@ -4,7 +4,7 @@ Changes to the SRD are found here, with more recent changes appearing near the t
 ## November 6, 2026
 ### Changes
 - A bunch of typo fixes in *Creating_Abilities.md*.
-- Changed the following **Ability Properties** in *Creating_Abilities.md*.
+- Changed the following **Ability** **Properties** in *Creating_Abilities.md*.
   - Innate Type
   - Aptitude Prerequisite
   - Base Stats Prerequsite
@@ -14,8 +14,10 @@ Changes to the SRD are found here, with more recent changes appearing near the t
   - Has Base Stat Property
   - Has Reach Property
 - Changed the following **Effects** in *Creating_Abilities.md*.
+  - Add Sub Ability
   - Repel
   - Steal
+- Cleaned up formatting in *Creating_Abilities.md*.
 
 ## November 4, 2026
 ### Additions
