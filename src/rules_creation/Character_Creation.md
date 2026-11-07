@@ -40,19 +40,21 @@ A character's *__Size__* determines how large or how small that character is; A 
 - <u>**Astronomic:**</u> An *Astronomic* character has a base of -50 **<i class="fa-solid fa-person-falling"></i>Evasion**, 30 **Heft**, and 10 **<i class="fa-solid fa-shield-halved"></i>Global Defense**. *Astronomic* characters range from 5,000 to 10,000 feet tall. Players can't start as *Astronomic* characters of **Levels** lower than 30.
 
 ### Aptitudes
-As mentioned on other pages, *__Aptitudes__* determine how proficient and effective you are with certain **Abilities**. To reiterate from those sources, each *__Aptitude__* has a fixed range of -50 to +50, with positive *__Aptitudes__* counting as **Boosts** and negative *__Aptitudes__* counting as **Penalties**. You can only have a number of **Aptitude Boosts** and **Aptitude Penalties** equal to your **Level** x 2, and for each **Aptitude Penalty** you take you may apply that many more **Aptitude Boosts**.
+As mentioned on other pages, *__Aptitudes__* determine how proficient and effective you are with certain tasks. To reiterate from those sources, each *__Aptitude__* has a fixed range of -50 to +50, with positive **Boosts** granting +5 and negative **Penalties** granting -5 to each **Aptitude**.
 
 ### Gear
 Player characters start with up to three pieces of **Level** 0 *__Gear__*, but can start with more or better *__Gear__* at the GM's discretion.
 
 ### Abilities
-Each character has a unique set of *__Abilities__* either as *Innate* passives or *Activated* with some form of cost. *__Abilities__* have various **Properties**. Characters start with no unique *__Abilities__* at Level 0, but may gain new *__Abilities__* either through **Gear** or through **Ability Points** earned when **Leveling Up**.
+Each character has a unique set of *__Abilities__*, either as *Innate* passives or *Activated*, usually with some form of cost. *__Abilities__* have various **Properties** and **Effects**. Characters start with no unique *__Abilities__* at Level 0, but may gain new *__Abilities__* either through **Gear** or through **Ability Points** earned when **Leveling Up**.
 
 ## Experience and Leveling Up
-Characters gain *__Experience__* during the game, usually from combat scenarios or at the GM's discretion. If a character has 100 or more *__Experience__*, they *__Level Up__* by spending 100 *__Experience__* until they have below 100 *__Experience__*. As a Character increases in **Level**, the following occurs:
-- That character gains 2 **Boosts** divided as they choose among **<a style="color:#ff4040">Physique</a>**, **<a style="color:#ffff40">Ego</a>**, and/or **<a style="color:#4040ff">Instinct</a>** per **Level** gained. *(For example, they may put 10 points in <a style="color:#ff4040">Physique</a>, or they may put 5 into both <a style="color:#ff4040">Physique</a> and <a style="color:#ffff40">Ego</a>.)* Be sure to scale your **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**, **<a style="color:#ffc040"><i class="fa-solid fa-person-running"></i>Stamina</a>**, and **<a style="color:#40ff40"><i class="fa-solid fa-bolt"></i>Energy</a>** accordingly.
-- That character gains 2 **Boosts** divided as they choose among their current and/or any new **Aptitudes** per **Level** gained. That character may also gain up to 2 **Aptitude Penalties** per **Level** gained, either new or current, to gain that many more **Aptitude Boosts**.
-- That character gains 1 **Ability Point** to spend on new or current **Abilities** for each **Level** reached. Any **Ability** additions or changes may be made now. *(For example, if you Level Up from Level 2 to Level 3, you gain 3 Ability Points during that Level Up.)*
+Characters gain *__Experience__* during the game, usually from combat scenarios or at the GM's discretion. If a character has 100 or more *__Experience__*, they *__Level Up__*. As a Character increases in **Level**, the following occurs in order:
+1. That character spends 100 *__Experience__*.
+2. That character gains 2 **Base Stat Boosts** divided as they choose among **<a style="color:#ff4040">Physique</a>**, **<a style="color:#ffff40">Ego</a>**, and/or **<a style="color:#4040ff">Instinct</a>**. **Base Stat Boosts** grant +5 to a **Base Stat**. *(For example, they may put 10 points in <a style="color:#ff4040">Physique</a>, or they may put 5 into both <a style="color:#ff4040">Physique</a> and <a style="color:#ffff40">Ego</a>.)* Be sure to scale your **<a style="color:#c040ff"><i class="fa-solid fa-heart"></i>Health</a>**, **<a style="color:#ffc040"><i class="fa-solid fa-person-running"></i>Stamina</a>**, and **<a style="color:#40ff40"><i class="fa-solid fa-bolt"></i>Energy</a>** accordingly.
+3. That character gains 2 **Aptitude Boosts** divided as they choose among their current and/or any new **Aptitudes**. That character may also gain up to 2 **Aptitude Penalties** towards either new or current **Aptitudes** to gain that many more **Aptitude Boosts**.
+4. That character gains a number of **Ability Points** to spend on one new **Ability** equal to their **Level**. That character must now **Buy Abilities** and must spend all **Ability Points** before continuing.
+5. If that character still has over 100 *__Experience__*, they repeat the *__Level Up__* process by going back to Step 1.
 
 > [!IMPORTANT]
 > The GM chooses what **Level** the players start and end at. As a GM, it's your job to make sure everyone knows and is okay with this. The recommended **Level** range for a larger campaign is from **Levels** 1 to 30.

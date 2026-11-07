@@ -1,10 +1,35 @@
 # Changelog
 Changes to the SRD are found here, with more recent changes appearing near the top.
 
+## November 7, 2026
+### Changes
+- Reduced **<i class="fa-solid fa-gem"></i>Action Point** Damage when low on **<a style="color:#ffc040"><i class="fa-solid fa-person-running"></i>Stamina</a>** in *Core_Rules.md*.
+- A forgotten symbol added in *Introduction.md*.
+- Changed the following **Properties** in *Creating_Abilities.md*.
+  - Resources Cost: X Cost +0.2 -> +1. X now multiplied by 5 instead.
+  - Has Base Stats: Reworded for clarification.
+  - Has Critical Range: Actually mentions use of Contested d% Check. Both Critical Ranges must be stronger than their non-Critical counterparts.
+  - Has Random Range: Maximum X uncapped -> 5. Can no longer be used with Has Failure Range or Has Critical Range.
+- Changed the following **Effects** in *Creating_Abilities.md*.
+  - Add Sub Ability: **Alternative Costs** and **Prerequisites** no longer change the Sub **Ability's** **Ability Point Costs** as they don't have either.
+  - Affects Gear: Now a **Property** instead.
+  - Change Size: Now accurately works with **Size** increasing **<i class="fa-solid fa-shield-halved"></i>Global Defense** instead.
+  - Create Character: Can now **Ambush**. Removed Z. Y now increases **Level** instead. X Cost +1 -> +2. Maximum Y now equal to your Current **Level**. This ability can now be taken multiple times.
+- Further clarified the following in *Character_Creation.md*.
+  - Experience and Leveling Up
+  - Aptitudes
+  - Abilities
+- Changed the following **Abilities** in *Combat_Rules.md*.
+  - Defend: **Level** now halved; Final result is rounded up. **<i class="fa-solid fa-gem"></i>Action Point** Cost 1 -> 2.
+### Removals
+- Removed the following **Properties** in *Creating_Abilities.md*.
+  - Level Prerequisite
+
 ## November 6, 2026
 ### Changes
 - A bunch of typo fixes in *Creating_Abilities.md*.
-- Changed the following **Ability** **Properties** in *Creating_Abilities.md*.
+- Some forgotten symbols added in *Core_Rules.md*.
+- Changed the following **Ability Properties** in *Creating_Abilities.md*.
   - Innate Type
   - Aptitude Prerequisite
   - Base Stats Prerequsite
